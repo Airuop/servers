@@ -63,34 +63,25 @@ dns:
     - speedtest.cros.wr.pvp.net
 proxies:
   - {"type":"vmess","name":"(@cafe_music_plus)-TCI-🇸🇬-1","ws-opts":{"path":"/chat","headers":{"host":"vsg1.0bad.com"}},"server":"vsg1.0bad.com","port":"443","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"(@cafe_music_plus)-TCI-🇯🇵-2","server":"os13.cats22.net","port":443,"password":"18844%40zxcvbn","udp":true,"skip-cert-verify":true,"sni":"os13.cats22.net"}
-  - {"type":"trojan","name":"(@cafe_music_plus)-TCI-🇰🇷-3","server":"138.2.115.240","port":3052,"password":"3a2c0c6c-9ee5-c05f-c951-fcd73831983e","udp":true,"skip-cert-verify":true,"sni":"kr05.wangxd.life"}
-  - {"type":"trojan","name":"(@cafe_music_plus)-TCI-🇯🇵-4","server":"tk-tr-4.cats22.net","port":443,"password":"18844%40zxcvbn","udp":true,"skip-cert-verify":true,"sni":"tk-tr-4.cats22.net"}
-  - {"type":"ssr","name":"(@cafe_music_plus)-TCI-🇨🇿-5","server":"109.123.237.51","port":443,"protocol":"origin","cipher":"aes-256-ctr","obfs":"tls1.2_ticket_auth","password":"HowdyBypasser2022"}
+  - {"type":"trojan","name":"(@cafe_music_plus)-TCI-🇯🇵-2","server":"os13.cats22.net","port":443,"password":"18844%40zxcvbn","udp":true,"skip-cert-verify":true,"sni":"os13.cats22.net","network":"tcp"}
+  - {"type":"trojan","name":"(@cafe_music_plus)-TCI-🇰🇷-3","server":"138.2.115.240","port":3052,"password":"3a2c0c6c-9ee5-c05f-c951-fcd73831983e","udp":true,"skip-cert-verify":true,"sni":"kr05.wangxd.life","network":"tcp"}
+  - {"type":"trojan","name":"(@cafe_music_plus)-TCI-🇯🇵-4","server":"tk-tr-4.cats22.net","port":443,"password":"18844%40zxcvbn","udp":true,"skip-cert-verify":true,"sni":"tk-tr-4.cats22.net","network":"tcp"}
   - {"type":"vmess","name":"(@cafe_music_plus)-TCI-🇯🇵-6","server":"03rb.mealstream.xyz","port":"15403","uuid":"50f0ee3c-71ed-4334-96b5-d3a589679b48","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"ssr","name":"(@cafe_music_plus)-TCI-🇨🇿-7","server":"109.123.237.53","port":443,"protocol":"origin","cipher":"aes-256-ctr","obfs":"tls1.2_ticket_auth","password":"HowdyBypasser2022"}
   - {"type":"vmess","name":"(@cafe_music_plus)-TCI-🇺🇸-8","ws-opts":{"path":"/dsadsa1dsadsa33434","headers":{"host":"xjp4h.mayaa.ml"}},"server":"xjp4h.mayaa.ml","port":"443","uuid":"82d5ea73-8002-4319-cd3c-29d1560bd290","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"(@cafe_music_plus)-TCI-🇺🇸-9","ws-opts":{"path":"/chat","headers":{"host":"vus2.0bad.com"}},"server":"vus2.0bad.com","port":"443","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"(@cafe_music_plus)-TCI-🇺🇸-10","ws-opts":{"path":"/","headers":{"host":"usdo.tzccifq.ga"}},"server":"usdo.tzccifq.ga","port":"443","uuid":"58eb724d-5a95-4b9c-851e-2cb3b408e85f","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"(@cafe_music_plus)-TCI-🇺🇸-11","server":"jd100.8faka.tk","port":35100,"password":"b9bba1d6-242d-3c24-879b-3b5e35220fa9","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"(@cafe_music_plus)-TCI-🇺🇸-11","server":"jd100.8faka.tk","port":35100,"password":"b9bba1d6-242d-3c24-879b-3b5e35220fa9","udp":true,"skip-cert-verify":true,"network":"tcp"}
   - {"type":"vmess","name":"(@cafe_music_plus)-TCI-🇺🇸-12","ws-opts":{"path":"/djfnvws","headers":{"host":"shekari.azhdarontheboard.com"}},"server":"104.19.223.39","port":"443","uuid":"1d64d3f0-23d4-477f-a413-cdd5036a7e95","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ssr","name":"(@cafe_music_plus)-TCI-🇨🇿-13","server":"109.123.237.52","port":443,"protocol":"origin","cipher":"aes-256-ctr","obfs":"tls1.2_ticket_auth","password":"HowdyBypasser2022"}
   - {"type":"ss","name":"(@cafe_music_plus)-TCI-🇨🇾-14","server":"213.169.137.221","port":989,"cipher":"aes-256-cfb","password":"f8f7aCzcPKbsF8p3"}
   - {"type":"vmess","name":"(@cafe_music_plus)-TCI-🇺🇸-15","ws-opts":{"path":"/huhu","headers":{"host":"hucloud.tk"}},"server":"hucloud.tk","port":"443","uuid":"2df3ed4a-4313-45f9-b742-2f02ce593a6e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"(@cafe_music_plus)-TCI-🇰🇷-16","server":"kr05.wangxd.life","port":3052,"password":"3a2c0c6c-9ee5-c05f-c951-fcd73831983e","udp":true,"skip-cert-verify":true,"sni":"kr05.wangxd.life"}
+  - {"type":"trojan","name":"(@cafe_music_plus)-TCI-🇰🇷-16","server":"kr05.wangxd.life","port":3052,"password":"3a2c0c6c-9ee5-c05f-c951-fcd73831983e","udp":true,"skip-cert-verify":true,"sni":"kr05.wangxd.life","network":"tcp"}
   - {"type":"vmess","name":"(@cafe_music_plus)-TCI-🇸🇬-17","ws-opts":{"path":"/Falling42gcoresgnode","headers":{"host":"gcoresg.sylu.cyou"}},"server":"gcoresg.sylu.cyou","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"(@cafe_music_plus)-RIGHTEL-🇺🇸-1","server":"38.121.43.71","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"(@cafe_music_plus)-RIGHTEL-🇺🇸-2","server":"38.121.43.71","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"type":"ss","name":"(@cafe_music_plus)-RIGHTEL-🇺🇸-3","server":"38.121.43.71","port":5600,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"(@cafe_music_plus)-RIGHTEL-🇺🇸-4","server":"38.121.43.71","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"ss","name":"(@cafe_music_plus)-RIGHTEL-🇺🇸-5","server":"38.91.107.37","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"ss","name":"(@cafe_music_plus)-RIGHTEL-🇺🇸-6","server":"38.91.107.37","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"type":"ss","name":"(@cafe_music_plus)-RIGHTEL-🇺🇸-7","server":"38.68.134.48","port":3389,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ssr","name":"(@cafe_music_plus)-RIGHTEL-🇳🇱-8","server":"213.183.59.214","port":9084,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"c3NtHJ5ujV2tGDfj"}
-  - {"type":"ss","name":"(@cafe_music_plus)-RIGHTEL-🇺🇸-9","server":"38.121.43.71","port":5004,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"ss","name":"(@cafe_music_plus)-RIGHTEL-🇺🇸-10","server":"38.121.43.71","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"(@cafe_music_plus)-RIGHTEL-🇺🇸-11","server":"38.68.134.191","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"ss","name":"(@cafe_music_plus)-RIGHTEL-🇺🇸-12","server":"38.68.134.48","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"vmess","name":"(@cafe_music_plus)-RIGHTE-🇺🇿-1","ws-opts":{"path":"/"},"server":"146.59.92.219","port":"2096","uuid":"aca71b13-ec8a-466d-c28f-43516d3cf246","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"(@cafe_music_plus)-RIGHTE-🇨🇳-2","server":"39.103.165.178","port":50002,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","network":"auto"}
+  - {"type":"vmess","name":"(@cafe_music_plus)-RIGHTE-🇯🇵-3","server":"00000000000000000000000000000000000000000000000000000000000033a.node-for-bigairport.win","port":"12356","uuid":"f3fda0c6-4025-4da7-82b4-88423d9ec489","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"(@cafe_music_plus)-RIGHTE-🇩🇪-4","ws-opts":{"path":"/"},"server":"165.227.175.88","port":"28164","uuid":"eba8ccf5-5ab9-4b6b-de4b-83ab920c1005","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"(@cafe_music_plus)-RIGHTE-🇺🇸-5","server":"38.91.102.30","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"vmess","name":"(@cafe_music_plus)-RIGHTE-🇨🇿-6","ws-opts":{"path":"/"},"server":"109.123.237.41","port":"80","uuid":"03a77360-808d-11ed-b736-205c6d5f5d78","alterId":"0","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: All
     type: select
@@ -100,76 +91,58 @@ proxy-groups:
       - (@cafe_music_plus)-TCI-🇯🇵-2
       - (@cafe_music_plus)-TCI-🇰🇷-3
       - (@cafe_music_plus)-TCI-🇯🇵-4
-      - (@cafe_music_plus)-TCI-🇨🇿-5
       - (@cafe_music_plus)-TCI-🇯🇵-6
-      - (@cafe_music_plus)-TCI-🇨🇿-7
       - (@cafe_music_plus)-TCI-🇺🇸-8
       - (@cafe_music_plus)-TCI-🇺🇸-9
       - (@cafe_music_plus)-TCI-🇺🇸-10
       - (@cafe_music_plus)-TCI-🇺🇸-11
       - (@cafe_music_plus)-TCI-🇺🇸-12
-      - (@cafe_music_plus)-TCI-🇨🇿-13
       - (@cafe_music_plus)-TCI-🇨🇾-14
       - (@cafe_music_plus)-TCI-🇺🇸-15
       - (@cafe_music_plus)-TCI-🇰🇷-16
       - (@cafe_music_plus)-TCI-🇸🇬-17
-      - (@cafe_music_plus)-RIGHTEL-🇺🇸-1
-      - (@cafe_music_plus)-RIGHTEL-🇺🇸-2
-      - (@cafe_music_plus)-RIGHTEL-🇺🇸-3
-      - (@cafe_music_plus)-RIGHTEL-🇺🇸-4
-      - (@cafe_music_plus)-RIGHTEL-🇺🇸-5
-      - (@cafe_music_plus)-RIGHTEL-🇺🇸-6
-      - (@cafe_music_plus)-RIGHTEL-🇺🇸-7
-      - (@cafe_music_plus)-RIGHTEL-🇳🇱-8
-      - (@cafe_music_plus)-RIGHTEL-🇺🇸-9
-      - (@cafe_music_plus)-RIGHTEL-🇺🇸-10
-      - (@cafe_music_plus)-RIGHTEL-🇺🇸-11
-      - (@cafe_music_plus)-RIGHTEL-🇺🇸-12
+      - (@cafe_music_plus)-RIGHTE-🇺🇿-1
+      - (@cafe_music_plus)-RIGHTE-🇨🇳-2
+      - (@cafe_music_plus)-RIGHTE-🇯🇵-3
+      - (@cafe_music_plus)-RIGHTE-🇩🇪-4
+      - (@cafe_music_plus)-RIGHTE-🇺🇸-5
+      - (@cafe_music_plus)-RIGHTE-🇨🇿-6
   - name: Auto
     type: url-test
     url: http://cp.cloudflare.com/generate_204
-    interval: 300 
+    interval: 300
     proxies:
       - (@cafe_music_plus)-TCI-🇸🇬-1
       - (@cafe_music_plus)-TCI-🇯🇵-2
       - (@cafe_music_plus)-TCI-🇰🇷-3
       - (@cafe_music_plus)-TCI-🇯🇵-4
-      - (@cafe_music_plus)-TCI-🇨🇿-5
       - (@cafe_music_plus)-TCI-🇯🇵-6
-      - (@cafe_music_plus)-TCI-🇨🇿-7
       - (@cafe_music_plus)-TCI-🇺🇸-8
       - (@cafe_music_plus)-TCI-🇺🇸-9
       - (@cafe_music_plus)-TCI-🇺🇸-10
       - (@cafe_music_plus)-TCI-🇺🇸-11
       - (@cafe_music_plus)-TCI-🇺🇸-12
-      - (@cafe_music_plus)-TCI-🇨🇿-13
       - (@cafe_music_plus)-TCI-🇨🇾-14
       - (@cafe_music_plus)-TCI-🇺🇸-15
       - (@cafe_music_plus)-TCI-🇰🇷-16
       - (@cafe_music_plus)-TCI-🇸🇬-17
-      - (@cafe_music_plus)-RIGHTEL-🇺🇸-1
-      - (@cafe_music_plus)-RIGHTEL-🇺🇸-2
-      - (@cafe_music_plus)-RIGHTEL-🇺🇸-3
-      - (@cafe_music_plus)-RIGHTEL-🇺🇸-4
-      - (@cafe_music_plus)-RIGHTEL-🇺🇸-5
-      - (@cafe_music_plus)-RIGHTEL-🇺🇸-6
-      - (@cafe_music_plus)-RIGHTEL-🇺🇸-7
-      - (@cafe_music_plus)-RIGHTEL-🇳🇱-8
-      - (@cafe_music_plus)-RIGHTEL-🇺🇸-9
-      - (@cafe_music_plus)-RIGHTEL-🇺🇸-10
-      - (@cafe_music_plus)-RIGHTEL-🇺🇸-11
-      - (@cafe_music_plus)-RIGHTEL-🇺🇸-12
+      - (@cafe_music_plus)-RIGHTE-🇺🇿-1
+      - (@cafe_music_plus)-RIGHTE-🇨🇳-2
+      - (@cafe_music_plus)-RIGHTE-🇯🇵-3
+      - (@cafe_music_plus)-RIGHTE-🇩🇪-4
+      - (@cafe_music_plus)-RIGHTE-🇺🇸-5
+      - (@cafe_music_plus)-RIGHTE-🇨🇿-6
 rule-providers:
   direct:
     type: http
     behavior: classical
-    url:   https://github.com/Airuop/servers/releases/latest/download/direct.yaml
+    url: https://github.com/Airuop/servers/releases/latest/download/direct.yaml
     path: ./ruleset/direct.yaml
     interval: 432000
   block:
     type: http
     behavior: classical
-    url:   https://github.com/Airuop/servers/releases/latest/download/block.yaml
+    url: https://github.com/Airuop/servers/releases/latest/download/block.yaml
     path: ./ruleset/block.yaml
     interval: 432000
 rules:
