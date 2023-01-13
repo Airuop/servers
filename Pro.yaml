@@ -108,7 +108,7 @@ proxy-groups:
       - (@cafe_music_plus)-RIGHTE-🇺🇸-5
       - (@cafe_music_plus)-RIGHTE-🇨🇿-6
   - name: Auto
-    type: url-test
+    type: fallback
     url: http://cp.cloudflare.com/generate_204
     interval: 300
     proxies:
