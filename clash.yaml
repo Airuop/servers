@@ -239,7 +239,7 @@ proxy-groups:
       - (@cafe_music_plus)-ETC-🇩🇪-40
   - name: Auto
     type: fallback
-    url: http://cp.cloudflare.com/generate_204
+    url: http://149.154.167.92:443
     interval: 300
     proxies:
       - (@cafe_music_plus)-TCI-🇨🇳-1
