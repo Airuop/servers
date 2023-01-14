@@ -239,7 +239,7 @@ proxy-groups:
       - (@cafe_music_plus)-ETC-🇩🇪-40
   - name: Auto
     type: fallback
-    url: 'http://www.gstatic.com/generate_204'
+    url: https://developers.android.google.cn/generate_204
     interval: 300
     proxies:
       - (@cafe_music_plus)-TCI-🇨🇳-1
