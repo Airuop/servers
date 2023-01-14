@@ -108,8 +108,8 @@ proxy-groups:
       - (@cafe_music_plus)-RIGHTE-🇺🇸-5
       - (@cafe_music_plus)-RIGHTE-🇨🇿-6
   - name: Auto
-    type: fallback
-    url: https://developers.android.google.cn/generate_204
+    type: url-test
+    url: https://www.instagram.com/
     interval: 300
     proxies:
       - (@cafe_music_plus)-TCI-🇸🇬-1
