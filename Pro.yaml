@@ -109,7 +109,7 @@ proxy-groups:
       - (@cafe_music_plus)-RIGHTE-🇨🇿-6
   - name: Auto
     type: fallback
-    url: http://149.154.167.92:443
+    url: 'http://www.gstatic.com/generate_204'
     interval: 300
     proxies:
       - (@cafe_music_plus)-TCI-🇸🇬-1
