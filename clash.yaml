@@ -193,8 +193,8 @@ proxy-groups:
       - (@cafe_music_plus)-RIGHTEL-🇺🇸-17
   - name: Auto
     type: url-test
-    url: https://www.instagram.com/
-    interval: 300
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 600
     proxies:
       - (@cafe_music_plus)-TCI-🇺🇸-1
       - (@cafe_music_plus)-TCI-🇺🇸-2
@@ -262,13 +262,13 @@ rule-providers:
   direct:
     type: http
     behavior: classical
-    url: https://github.com/Airuop/servers/releases/latest/download/direct.yaml
+    url: https://raw.githubusercontent.com/Airuop/servers/main/rules/direct.yaml
     path: ./ruleset/direct.yaml
     interval: 432000
   block:
     type: http
     behavior: classical
-    url: https://github.com/Airuop/servers/releases/latest/download/block.yaml
+    url: https://raw.githubusercontent.com/Airuop/servers/main/rules/block.yaml
     path: ./ruleset/block.yaml
     interval: 432000
 rules:
