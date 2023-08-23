@@ -1,0 +1,1103 @@
+{
+    "log": {
+        "disabled": false,
+        "level": "fatal",
+        "timestamp": true
+    },
+    "experimental": {
+        "clash_api": {
+            "external_controller": "0.0.0.0:9090",
+            "external_ui": "yacd",
+            "external_ui_download_url": "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
+            "external_ui_download_detour": "direct",
+            "secret": "",
+            "default_mode": "rule",
+            "store_selected": true,
+            "cache_file": "clash.db"
+        }
+    },
+    "dns": {
+        "servers": [
+            {
+                "address": "https://dns.bitdefender.net/dns-query",
+                "address_resolver": "dns-direct",
+                "strategy": "ipv4_only",
+                "tag": "dns-remote"
+            },
+            {
+                "address": "https://dns.bitdefender.net/dns-query",
+                "address_resolver": "dns-local",
+                "detour": "direct",
+                "strategy": "ipv4_only",
+                "tag": "dns-direct"
+            },
+            {
+                "address": "local",
+                "detour": "direct",
+                "tag": "dns-local"
+            },
+            {
+                "address": "rcode://success",
+                "tag": "dns-block"
+            }
+        ],
+        "rules": [
+            {
+                "domain_suffix": [
+                    ".ir"
+                ],
+                "server": "dns-direct"
+            },
+            {
+                "outbound": "direct",
+                "server": "dns-direct",
+                "rewrite_ttl": 20
+            },
+            {
+                "outbound": "any",
+                "server": "dns-direct",
+                "rewrite_ttl": 20
+            }
+        ],
+        "reverse_mapping": true,
+        "strategy": "ipv4_only",
+        "independent_cache": true
+    },
+    "inbounds": [
+        {
+            "listen": "0.0.0.0",
+            "listen_port": 6450,
+            "override_address": "8.8.8.8",
+            "override_port": 53,
+            "tag": "dns-in",
+            "type": "direct"
+        },
+        {
+            "type": "tun",
+            "tag": "tun-in",
+            "domain_strategy": "",
+            "interface_name": "tun0",
+            "inet4_address": "172.19.0.1/30",
+            "mtu": 9000,
+            "auto_route": true,
+            "strict_route": true,
+            "stack": "system",
+            "endpoint_independent_nat": true,
+            "sniff": true,
+            "sniff_override_destination": false
+        },
+        {
+            "domain_strategy": "",
+            "listen": "0.0.0.0",
+            "listen_port": 2080,
+            "sniff": true,
+            "sniff_override_destination": false,
+            "tag": "mixed-in",
+            "type": "mixed"
+        }
+    ],
+    "outbounds": [
+        {
+            "tag": "proxy",
+            "type": "selector",
+            "outbounds": [
+                "URL-TEST",
+                "Node_DE_1",
+                "Node_IR_2",
+                "Node_US_3",
+                "Node_DE_4",
+                "Node_DE_5",
+                "Node_US_6",
+                "Node_IR_7",
+                "Node_US_8",
+                "Node_US_9",
+                "Node_US_10",
+                "Node_HK_11",
+                "Node_DE_12",
+                "Node_FI_13",
+                "Node_RO_14",
+                "Node_DE_15",
+                "Node_US_16",
+                "Node_DE_17",
+                "Node_IR_18",
+                "Node_IR_19",
+                "Node_DE_20",
+                "Node_DE_21",
+                "Node_FI_22",
+                "Node_IR_23",
+                "Node_DE_24",
+                "Node_DE_25",
+                "Node_US_26",
+                "Node_US_27",
+                "Node_US_28",
+                "Node_DE_29",
+                "Node_FI_30",
+                "Node_US_31",
+                "Node_DE_32",
+                "Node_DE_33",
+                "Node_IR_34",
+                "Node_IR_35",
+                "Node_NL_36",
+                "Node_DE_37",
+                "Node_DE_38",
+                "Node_TR_39",
+                "Node_NL_40"
+            ]
+        },
+        {
+            "tag": "URL-TEST",
+            "type": "urltest",
+            "outbounds": [
+                "Node_DE_1",
+                "Node_IR_2",
+                "Node_US_3",
+                "Node_DE_4",
+                "Node_DE_5",
+                "Node_US_6",
+                "Node_IR_7",
+                "Node_US_8",
+                "Node_US_9",
+                "Node_US_10",
+                "Node_HK_11",
+                "Node_DE_12",
+                "Node_FI_13",
+                "Node_RO_14",
+                "Node_DE_15",
+                "Node_US_16",
+                "Node_DE_17",
+                "Node_IR_18",
+                "Node_IR_19",
+                "Node_DE_20",
+                "Node_DE_21",
+                "Node_FI_22",
+                "Node_IR_23",
+                "Node_DE_24",
+                "Node_DE_25",
+                "Node_US_26",
+                "Node_US_27",
+                "Node_US_28",
+                "Node_DE_29",
+                "Node_FI_30",
+                "Node_US_31",
+                "Node_DE_32",
+                "Node_DE_33",
+                "Node_IR_34",
+                "Node_IR_35",
+                "Node_NL_36",
+                "Node_DE_37",
+                "Node_DE_38",
+                "Node_TR_39",
+                "Node_NL_40"
+            ],
+            "url": "https://detectportal.firefox.com/success.txt",
+            "interval": "3m",
+            "tolerance": 200
+        },
+        {
+            "server": "49.12.245.202",
+            "server_port": 443,
+            "tag": "Node_DE_1",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "K7C_pOD78XXS7D0fNVbwyjlfLc_MGQ_4BwfQU_DnbQY",
+                    "short_id": "3dc679a73cf4bbf6"
+                },
+                "server_name": "www.speedtest.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "flow": "xtls-rprx-vision",
+            "uuid": "7f1352c6-0ba2-4b38-97a0-6c4d3784afc2"
+        },
+        {
+            "server": "91.107.160.150",
+            "server_port": 22001,
+            "tag": "Node_IR_2",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yi-3ZKmcgSqiqclyFTZi1jr0O4W73tbFfR-qQNfrvXU",
+                    "short_id": "e321fde9"
+                },
+                "server_name": "www.speedtest.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "type": "vless",
+            "flow": "",
+            "uuid": "8dac74b0-00da-494c-b09a-043845c890e5"
+        },
+        {
+            "server": "biz.storeplus9.fun",
+            "server_port": 2093,
+            "tag": "Node_US_3",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "3uJ3SPeRHo77PPQVOMlsF4IH6XrSsgp4oO10pd_-rmA",
+                    "short_id": "096b07f2"
+                },
+                "server_name": "www.speedtest.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "flow": "",
+            "uuid": "15fa2f8b-bd1a-48a9-912b-e0fd6fb9837b"
+        },
+        {
+            "server": "four.felinetest.site",
+            "server_port": 443,
+            "tag": "Node_DE_4",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
+                    "short_id": "6f9deca7"
+                },
+                "server_name": "none.felinetest.site",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "flow": "xtls-rprx-vision",
+            "uuid": "fbe02c0b-775f-4431-8615-a9497255c876"
+        },
+        {
+            "server": "injaroooo.outline-vpn.cloud",
+            "server_port": 443,
+            "tag": "Node_DE_5",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
+                    "short_id": "6f9deca7"
+                },
+                "server_name": "none.felinetest.site",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "flow": "xtls-rprx-vision",
+            "uuid": "fbe02c0b-775f-4431-8615-a9497255c876"
+        },
+        {
+            "server": "lordconfig.hackteam.link",
+            "server_port": 8080,
+            "tag": "Node_US_6",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fhuWquAczs7ZW99E2ViBiP2etPCpfVmcecPoJFhic1Y",
+                    "short_id": "2565ac2c"
+                },
+                "server_name": "parspack.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "type": "vless",
+            "flow": "xtls-rprx-vision",
+            "uuid": "11d5e4f1-8b49-4d25-a773-4d90f7c39bc3"
+        },
+        {
+            "server": "vf.outline-vpn.cloud",
+            "server_port": 22001,
+            "tag": "Node_IR_7",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yi-3ZKmcgSqiqclyFTZi1jr0O4W73tbFfR-qQNfrvXU",
+                    "short_id": "e321fde9"
+                },
+                "server_name": "www.speedtest.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "type": "vless",
+            "flow": "",
+            "uuid": "40173a9d-c38e-47f0-9487-4fdf91ce7717"
+        },
+        {
+            "server": "18.206.254.156",
+            "server_port": 443,
+            "tag": "Node_US_8",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cNEWM9JyFJkbA---ziY2LtLQNSQBHsJwz43X8m1OTyo",
+                    "short_id": "2ada88de5190ac7f"
+                },
+                "server_name": "s0.awsstatic.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "flow": "xtls-rprx-vision",
+            "uuid": "f6429639-906b-4a87-8310-3caf3b724b7b"
+        },
+        {
+            "server": "38.180.20.150",
+            "server_port": 443,
+            "tag": "Node_US_9",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Q_TPJ9ttl_QOONnqGKRvzLvG-aAdqXkPtyhMPZ7Hqw0",
+                    "short_id": "34e921e9"
+                },
+                "server_name": "www.speedtest.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "safari"
+                }
+            },
+            "type": "vless",
+            "flow": "xtls-rprx-vision",
+            "uuid": "72c6050f-fd80-432b-9dd5-2c231ca16c7a"
+        },
+        {
+            "server": "45.55.69.114",
+            "server_port": 8443,
+            "tag": "Node_US_10",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lOqa0otjCaJV6ncZKgoIpZmkXwuNYttUs6jJeOXBRSY",
+                    "short_id": "57a27775"
+                },
+                "server_name": "cms.accuweather.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "flow": "",
+            "uuid": "a19b0cbb-ccb6-4adc-bc5a-4de0e8801e6e"
+        },
+        {
+            "server": "45.156.27.251",
+            "server_port": 443,
+            "tag": "Node_HK_11",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "dpvcYiM3tSVsvSSATN4-4_vpySUlr7bDTfHWCdQNEhg",
+                    "short_id": "0123456789abcdef"
+                },
+                "server_name": "datadoghq.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "flow": "",
+            "uuid": "d6c997ea-dfb4-4b8c-9b85-23c284ac34cb"
+        },
+        {
+            "server": "49.13.73.198",
+            "server_port": 2053,
+            "tag": "Node_DE_12",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mIfxDJVx17Iz1Gz4tcMjtTGpnGkHIkKtcpZ8Am9BuAc",
+                    "short_id": "f9f1a0eb"
+                },
+                "server_name": "www.discord.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "type": "vless",
+            "flow": "",
+            "uuid": "Id-telegram-CloudCityy"
+        },
+        {
+            "server": "65.21.0.92",
+            "server_port": 443,
+            "tag": "Node_FI_13",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "8HT6kuhDozUNeMZbEbc9w-Vr6T9dao0m2Qw5Pay1DE8",
+                    "short_id": "ee9b3344e531"
+                },
+                "server_name": "expat.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "flow": "xtls-rprx-vision",
+            "uuid": "f3277d41-6404-4307-9c9b-08614accb414"
+        },
+        {
+            "server": "77.81.88.56",
+            "server_port": 48458,
+            "tag": "Node_RO_14",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tBtIaMZWozMUKa6lJgFLADy4WAwxOBTk8M6AFnCgWkI",
+                    "short_id": "05dbef12"
+                },
+                "server_name": "JOIN-BEDE-TO-IN-CHANEL-V2RAYFREE1",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "type": "vless",
+            "flow": "",
+            "uuid": "3ae925a6-88bd-4854-b6ac-9cacc458d646"
+        },
+        {
+            "server": "78.47.135.37",
+            "server_port": 2025,
+            "tag": "Node_DE_15",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "WJDjzFUSrfD2ChlRuTMqyVT8Bqe5bP7nTEgE7KoWtTQ",
+                    "short_id": ""
+                },
+                "server_name": "www.theverge.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "flow": "xtls-rprx-vision",
+            "uuid": "addb499e-dccf-4c09-879a-545a750c7bdb"
+        },
+        {
+            "server": "89.35.154.217",
+            "server_port": 443,
+            "tag": "Node_US_16",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "3WnHdv9A0tNParChTLxPnDteRD841h8thOGR7MBgAhY",
+                    "short_id": ""
+                },
+                "server_name": "androidcentral.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "flow": "xtls-rprx-vision",
+            "uuid": "d7ef94ae-fadb-475c-96aa-ec7cca879de1"
+        },
+        {
+            "server": "89.208.103.246",
+            "server_port": 4435,
+            "tag": "Node_DE_17",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "N2kiy6sXUpe5oEKZOf9XX5TmzT4Eb9nTH_mCEHLAMmc",
+                    "short_id": "5fdcd8d2"
+                },
+                "server_name": "www.cloudflare.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "type": "vless",
+            "flow": "",
+            "uuid": "b21929ec-e63c-4e5a-bec7-fa78b57f635b"
+        },
+        {
+            "server": "91.107.187.112",
+            "server_port": 10652,
+            "tag": "Node_IR_18",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZDgwgdHVKlJOlqUGTbIIPYPyYR6aGAcLhqg6GBE4sxU",
+                    "short_id": "0ab306a9"
+                },
+                "server_name": "www.nasa.gov",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "type": "vless",
+            "flow": "",
+            "uuid": "a9696c48-b476-4851-8d6f-d6680648bb1c"
+        },
+        {
+            "server": "91.107.253.138",
+            "server_port": 2096,
+            "tag": "Node_IR_19",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "6KyEJV7dP_YWnf33xGE7DFQyfb4SzNsBPKDN_GfDAzc",
+                    "short_id": "b5298de7"
+                },
+                "server_name": "zula.ir",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "type": "vless",
+            "flow": "",
+            "uuid": "b0e32006-735e-4b58-ba47-752119549ec4"
+        },
+        {
+            "server": "91.241.93.77",
+            "server_port": 80,
+            "tag": "Node_DE_20",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "DL8v0UblzT9ot9R4YHX5u7qxLB7SMOcIAyo2Lt3WLh0",
+                    "short_id": "08ebfbec"
+                },
+                "server_name": "ftp.debian.org",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "type": "vless",
+            "flow": "xtls-rprx-vision",
+            "uuid": "33baefd4-0621-4f80-a516-6a082cba48bb"
+        },
+        {
+            "server": "91.241.93.242",
+            "server_port": 80,
+            "tag": "Node_DE_21",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-ijcgRnnGLsemeZhLlJGEWqW3VbYX2kN1i2qZ1m-TiQ",
+                    "short_id": "d902657b"
+                },
+                "server_name": "ftp.debian.org",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "type": "vless",
+            "flow": "",
+            "uuid": "21ca3910-be87-4688-b734-d8571309f583"
+        },
+        {
+            "server": "95.217.242.182",
+            "server_port": 80,
+            "tag": "Node_FI_22",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YsE55HgtP1a_x7HqZouHtsi-5YYGsfBAm4AQzIjKvEc",
+                    "short_id": "24494b51"
+                },
+                "server_name": "eset.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "flow": "xtls-rprx-vision",
+            "uuid": "e881102a-0288-4048-9319-c498d6913d8f"
+        },
+        {
+            "server": "128.140.44.66",
+            "server_port": 11995,
+            "tag": "Node_IR_23",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "u-dyzHk0EFI6T725NjcT9b6e_H2AoxAZO3JuT7s-DSQ",
+                    "short_id": "b07223a8"
+                },
+                "server_name": "ftp.debian.org",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "flow": "xtls-rprx-vision",
+            "uuid": "e3cade5b-eb8e-461f-9063-8803db41df04"
+        },
+        {
+            "server": "140.82.39.11",
+            "server_port": 443,
+            "tag": "Node_DE_24",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "d1H_0miDHBvjPkygZfwG3ckMIpeo7S18xDwwZ8AYRCE",
+                    "short_id": "d55342c47ff449"
+                },
+                "server_name": "translate.google.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "flow": "xtls-rprx-vision",
+            "uuid": "874b15f4-7f43-436e-85d8-5142c3b748c0"
+        },
+        {
+            "server": "164.90.161.204",
+            "server_port": 1337,
+            "tag": "Node_DE_25",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "6J3K_dDigYzySmYWEGAMq2AT51zMFv1gLGP_0DkvJ1c",
+                    "short_id": "769312f9"
+                },
+                "server_name": "Nobitex.ir",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "flow": "",
+            "uuid": "ba555ccc-73c9-4dc0-ac76-cc85c9a20010"
+        },
+        {
+            "server": "172.232.61.215",
+            "server_port": 1337,
+            "tag": "Node_US_26",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zcc_C9zGFVgcSBszUB4Ce7cH4HYSS-HYeGre4hj5XEM",
+                    "short_id": "24a199ec"
+                },
+                "server_name": "Nobitex.ir",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "flow": "",
+            "uuid": "6eaee5a6-c975-4dfc-af3f-3d5480b2b9c0"
+        },
+        {
+            "server": "188.240.230.50",
+            "server_port": 443,
+            "tag": "Node_US_27",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "WIK7bTkiEqF-AsQ8OSRaVhPLWzUFPGorq58RiTsiIAc",
+                    "short_id": "bc9e8287"
+                },
+                "server_name": "discordapp.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "flow": "",
+            "uuid": "8f070170-8cb2-41a3-bf96-9aad92ecb3f8"
+        },
+        {
+            "server": "188.241.243.192",
+            "server_port": 443,
+            "tag": "Node_US_28",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zAwkXE6mHQJ0oOlWjubV4hUEYp0OFFgnIiJvYBQrvEo",
+                    "short_id": "5b16b06f"
+                },
+                "server_name": "up.20script.ir",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "flow": "",
+            "uuid": "ItsLegendaryking"
+        },
+        {
+            "server": "217.160.36.169",
+            "server_port": 443,
+            "tag": "Node_DE_29",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SltmCDZOy3yBaMjip6pvnZEaPXQ_Z6ANp_Nt_BXvXQk",
+                    "short_id": "256c9334"
+                },
+                "server_name": "yahoo.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "type": "vless",
+            "flow": "xtls-rprx-vision",
+            "uuid": "ff4dcc66-920c-4868-b98e-cb58c2928bae"
+        },
+        {
+            "server": "296.outline-vpn.cloud",
+            "server_port": 443,
+            "tag": "Node_FI_30",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "8HT6kuhDozUNeMZbEbc9w-Vr6T9dao0m2Qw5Pay1DE8",
+                    "short_id": "ee9b3344e531"
+                },
+                "server_name": "pinterest.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "flow": "xtls-rprx-vision",
+            "uuid": "ca1ecf58-c125-4543-bfe7-a9135a422f83"
+        },
+        {
+            "server": "636.outline-vpn.cloud",
+            "server_port": 11995,
+            "tag": "Node_US_31",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "u-dyzHk0EFI6T725NjcT9b6e_H2AoxAZO3JuT7s-DSQ",
+                    "short_id": "b07223a8"
+                },
+                "server_name": "ftp.debian.org",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "flow": "xtls-rprx-vision",
+            "uuid": "e3cade5b-eb8e-461f-9063-8803db41df04"
+        },
+        {
+            "server": "761.outline-vpn.cloud",
+            "server_port": 80,
+            "tag": "Node_DE_32",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-ijcgRnnGLsemeZhLlJGEWqW3VbYX2kN1i2qZ1m-TiQ",
+                    "short_id": "d902657b"
+                },
+                "server_name": "ftp.debian.org",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "type": "vless",
+            "flow": "",
+            "uuid": "21ca3910-be87-4688-b734-d8571309f583"
+        },
+        {
+            "server": "925.outline-vpn.cloud",
+            "server_port": 80,
+            "tag": "Node_DE_33",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "DL8v0UblzT9ot9R4YHX5u7qxLB7SMOcIAyo2Lt3WLh0",
+                    "short_id": "08ebfbec"
+                },
+                "server_name": "ftp.debian.org",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "type": "vless",
+            "flow": "xtls-rprx-vision",
+            "uuid": "33baefd4-0621-4f80-a516-6a082cba48bb"
+        },
+        {
+            "server": "an.anselparsa.monster",
+            "server_port": 37386,
+            "tag": "Node_IR_34",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Mcl0kkRGsgK4aOH_Nr9rUDaggP3zIb6K5zQG2dapawM",
+                    "short_id": "e68b9e6c"
+                },
+                "server_name": "www.xbox.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                }
+            },
+            "type": "vless",
+            "flow": "",
+            "uuid": "f6f5ecca-95ad-447a-9808-ec67e3f3eebb"
+        },
+        {
+            "server": "g2.dorost.sbs",
+            "server_port": 8443,
+            "tag": "Node_IR_35",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                },
+                "server_name": "cdn.discordapp.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "flow": "",
+            "uuid": "09f1e4b0-9ee3-4a79-af3d-6555d87beb79"
+        },
+        {
+            "server": "hdfy7d1.cpionline.co",
+            "server_port": 443,
+            "tag": "Node_NL_36",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "pcXXah6aKxGzwAmI_bKVSulzVfZlp_N-TPWTbfvWxGM",
+                    "short_id": "116d61af"
+                },
+                "server_name": "palletdeal.nl",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "flow": "xtls-rprx-vision",
+            "uuid": "5f6cd7d7-e1e1-488d-a389-6c73e65b567e"
+        },
+        {
+            "server": "irdl.ddns.net",
+            "server_port": 443,
+            "tag": "Node_DE_37",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "WQ0Rae1MoFL1jVHCUV71s6wyIR_2QYrDkT0aT-8FoAg",
+                    "short_id": ""
+                },
+                "server_name": "www.speedtest.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "flow": "xtls-rprx-vision",
+            "uuid": "859a1f5b-6f0c-4a97-bda7-99eb567aba4e"
+        },
+        {
+            "server": "jointo.outline-vpn.fun",
+            "server_port": 443,
+            "tag": "Node_DE_38",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
+                    "short_id": "6f9deca7"
+                },
+                "server_name": "none.felinetest.site",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "flow": "xtls-rprx-vision",
+            "uuid": "fbe02c0b-775f-4431-8615-a9497255c876"
+        },
+        {
+            "server": "turkiye.sinixchi.com",
+            "server_port": 50699,
+            "tag": "Node_TR_39",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PhVtJZDAk5-XTCAzBbX_4SHucVj10llfP1yQVdvY5Gc",
+                    "short_id": "54dfe5ea"
+                },
+                "server_name": "zula.ir",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "flow": "",
+            "uuid": "775504dc-8bf3-4d19-b5eb-a54f59cb9572"
+        },
+        {
+            "server": "wlf.ecodryfruit.com",
+            "server_port": 443,
+            "tag": "Node_NL_40",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GOWK9HVvqiOnATiX3e2sgT_GU5WBkbIglk7MAFWiLxk",
+                    "short_id": "ee739b59"
+                },
+                "server_name": "www.whitepages.com",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "flow": "xtls-rprx-vision",
+            "uuid": "37a72384-f5cc-48bb-b577-fc50551491b8"
+        },
+        {
+            "tag": "direct",
+            "type": "direct"
+        },
+        {
+            "tag": "bypass",
+            "type": "direct"
+        },
+        {
+            "tag": "block",
+            "type": "block"
+        },
+        {
+            "tag": "dns-out",
+            "type": "dns"
+        }
+    ],
+    "route": {
+        "auto_detect_interface": true,
+        "override_android_vpn": true,
+        "final": "proxy",
+        "geoip": {
+            "download_url": "https://github.com/malikshi/sing-box-geo/releases/latest/download/geoip.db",
+            "download_detour": "direct"
+        },
+        "geosite": {
+            "download_url": "https://github.com/malikshi/v2ray-rules-dat/releases/latest/download/geosite.db",
+            "download_detour": "direct"
+        },
+        "rules": [
+            {
+                "outbound": "dns-out",
+                "port": [
+                    53
+                ]
+            },
+            {
+                "inbound": [
+                    "dns-in"
+                ],
+                "outbound": "dns-out"
+            },
+            {
+                "domain_suffix": [
+                    ".ir"
+                ],
+                "outbound": "bypass"
+            },
+            {
+                "geoip": [
+                    "ir"
+                ],
+                "outbound": "bypass"
+            },
+            {
+                "ip_cidr": [
+                    "224.0.0.0/3",
+                    "ff00::/8"
+                ],
+                "outbound": "block",
+                "source_ip_cidr": [
+                    "224.0.0.0/3",
+                    "ff00::/8"
+                ]
+            }
+        ]
+    }
+}
