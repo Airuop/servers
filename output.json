@@ -1,0 +1,2176 @@
+//profile-title: base64:Q09OVkVSVEVEIEJZIFRWQw==
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+//support-url: https://t.me/v2raycollector
+//profile-web-page-url: https://github.com/yebekhe/TelegramV2rayCollector
+
+{
+    "log": {
+        "disabled": false,
+        "level": "fatal",
+        "timestamp": true
+    },
+    "experimental": {
+        "clash_api": {
+            "external_controller": "0.0.0.0:9090",
+            "external_ui": "yacd",
+            "external_ui_download_url": "https:\/\/github.com\/MetaCubeX\/Yacd-meta\/archive\/gh-pages.zip",
+            "external_ui_download_detour": "direct",
+            "secret": "",
+            "default_mode": "rule",
+            "store_selected": true,
+            "cache_file": "clash.db"
+        }
+    },
+    "dns": {
+        "servers": [
+            {
+                "address": "https:\/\/dns.bitdefender.net\/dns-query",
+                "address_resolver": "dns-direct",
+                "strategy": "ipv4_only",
+                "tag": "dns-remote"
+            },
+            {
+                "address": "https:\/\/dns.bitdefender.net\/dns-query",
+                "address_resolver": "dns-local",
+                "detour": "direct",
+                "strategy": "ipv4_only",
+                "tag": "dns-direct"
+            },
+            {
+                "address": "local",
+                "detour": "direct",
+                "tag": "dns-local"
+            },
+            {
+                "address": "rcode:\/\/success",
+                "tag": "dns-block"
+            }
+        ],
+        "rules": [
+            {
+                "domain_suffix": [
+                    ".ir"
+                ],
+                "server": "dns-direct"
+            },
+            {
+                "outbound": "direct",
+                "server": "dns-direct",
+                "rewrite_ttl": 20
+            },
+            {
+                "outbound": "any",
+                "server": "dns-direct",
+                "rewrite_ttl": 20
+            }
+        ],
+        "reverse_mapping": true,
+        "strategy": "ipv4_only",
+        "independent_cache": true
+    },
+    "inbounds": [
+        {
+            "listen": "0.0.0.0",
+            "listen_port": 6450,
+            "override_address": "8.8.8.8",
+            "override_port": 53,
+            "tag": "dns-in",
+            "type": "direct"
+        },
+        {
+            "type": "tun",
+            "tag": "tun-in",
+            "domain_strategy": "",
+            "interface_name": "tun0",
+            "inet4_address": "172.19.0.1\/30",
+            "mtu": 9000,
+            "auto_route": true,
+            "strict_route": true,
+            "stack": "system",
+            "endpoint_independent_nat": true,
+            "sniff": true,
+            "sniff_override_destination": false
+        },
+        {
+            "domain_strategy": "",
+            "listen": "0.0.0.0",
+            "listen_port": 2080,
+            "sniff": true,
+            "sniff_override_destination": false,
+            "tag": "mixed-in",
+            "type": "mixed"
+        }
+    ],
+    "outbounds": [
+        {
+            "tag": "proxy",
+            "type": "selector",
+            "outbounds": [
+                "URL-TEST",
+                "Stable_🇺🇸_1 | 1",
+                "Stable_🇺🇸_2 | 2",
+                "Stable_🇺🇸_3 | 3",
+                "Stable_🇺🇸_4 | 4",
+                "Stable_🇺🇸_5 | 5",
+                "Stable_🇺🇸_6 | 6",
+                "Stable_🇳🇱_7 | 7",
+                "Stable_🇺🇸_8 | 8",
+                "Stable_🇫🇮_9 | 9",
+                "Stable_🇩🇪_10 | 10",
+                "Stable_🇫🇷_11 | 11",
+                "Stable_🇫🇷_12 | 12",
+                "Stable_🇫🇷_13 | 13",
+                "Stable_🇫🇷_14 | 14",
+                "Stable_🇫🇷_15 | 15",
+                "Stable_🇫🇷_16 | 16",
+                "Stable_🇫🇷_17 | 17",
+                "Stable_🇫🇷_18 | 18",
+                "Stable_🇫🇷_19 | 19",
+                "Stable_🇫🇷_20 | 20",
+                "Stable_🇺🇸_21 | 21",
+                "Stable_🇺🇸_22 | 22",
+                "Stable_🇺🇸_23 | 23",
+                "Stable_🇺🇸_24 | 24",
+                "Stable_🇺🇸_25 | 25",
+                "Stable_🇺🇸_26 | 26",
+                "Stable_🇺🇸_27 | 27",
+                "Stable_🇺🇸_28 | 28",
+                "Stable_🇳🇱_29 | 29",
+                "Stable_🇳🇱_30 | 30",
+                "Stable_🇳🇱_31 | 31",
+                "Stable_🇳🇱_32 | 32",
+                "Stable_🇳🇱_33 | 33",
+                "Stable_🇳🇱_34 | 34",
+                "Stable_🇳🇱_35 | 35",
+                "Stable_🇨🇱_36 | 36",
+                "Stable_🇬🇷_37 | 37",
+                "Stable_🇧🇪_38 | 38",
+                "Stable_🇮🇷_39 | 39",
+                "Stable_🇺🇸_40 | 40",
+                "Stable_🇷🇸_41 | 41",
+                "Stable_🇫🇷_42 | 42",
+                "Stable_🇬🇧_43 | 43",
+                "Stable_🇸🇪_44 | 44",
+                "Stable_🇬🇧_45 | 45",
+                "Stable_🇬🇧_46 | 46",
+                "Stable_🇵🇱_47 | 47",
+                "Stable_🇮🇷_48 | 48",
+                "Stable_🇮🇷_49 | 49",
+                "Stable_🇸🇪_50 | 50",
+                "Stable_🇮🇸_51 | 51",
+                "Stable_🇮🇸_52 | 52",
+                "Stable_🇮🇲_53 | 53",
+                "Stable_🇭🇷_54 | 54",
+                "Stable_🇭🇷_55 | 55",
+                "Stable_🇫🇷_56 | 56",
+                "Stable_🇫🇷_57 | 57",
+                "Stable_🇫🇷_58 | 58",
+                "Stable_🇫🇷_59 | 59",
+                "Stable_🇫🇷_60 | 60",
+                "Stable_🇫🇷_61 | 61",
+                "Stable_🇫🇷_62 | 62",
+                "Stable_🇫🇷_63 | 63",
+                "Stable_🇫🇷_64 | 64",
+                "Stable_🇫🇷_65 | 65",
+                "Stable_🇫🇷_66 | 66",
+                "Stable_🇫🇷_67 | 67",
+                "Stable_🇫🇷_68 | 68",
+                "Stable_🇫🇷_69 | 69",
+                "Stable_🇫🇷_70 | 70",
+                "Stable_🇫🇷_71 | 71",
+                "Stable_🇫🇷_72 | 72",
+                "Stable_🇫🇷_73 | 73",
+                "Stable_🇫🇷_74 | 74",
+                "Stable_🇫🇷_75 | 75",
+                "Stable_🇫🇷_76 | 76",
+                "Stable_🇫🇷_77 | 77",
+                "Stable_🇫🇷_78 | 78",
+                "Stable_🇫🇷_79 | 79",
+                "Stable_🇫🇷_80 | 80",
+                "Stable_🇫🇷_81 | 81",
+                "Stable_🇫🇷_82 | 82",
+                "Stable_🇫🇷_83 | 83",
+                "Stable_🇫🇷_84 | 84",
+                "Stable_🇫🇷_85 | 85",
+                "Stable_🇫🇷_86 | 86",
+                "Stable_🇫🇷_87 | 87",
+                "Stable_🇫🇷_88 | 88",
+                "Stable_🇫🇷_89 | 89",
+                "Stable_🇫🇷_90 | 90",
+                "Stable_🇫🇷_91 | 91",
+                "Stable_🇫🇷_92 | 92",
+                "Stable_🇫🇷_93 | 93",
+                "Stable_🇫🇷_94 | 94",
+                "Stable_🇫🇷_95 | 95",
+                "Stable_🇫🇷_96 | 96",
+                "Stable_🇫🇷_97 | 97",
+                "Stable_🇫🇷_98 | 98",
+                "Stable_🇫🇷_99 | 99",
+                "Stable_🇫🇷_100 | 100",
+                "Stable_🇫🇷_101 | 101",
+                "Stable_🇫🇷_102 | 102",
+                "Stable_🇫🇷_103 | 103",
+                "Stable_🇫🇷_104 | 104",
+                "Stable_🇯🇵_105 | 105",
+                "Stable_🇯🇵_106 | 106",
+                "Stable_🇯🇵_107 | 107",
+                "Stable_🇯🇵_108 | 108",
+                "Stable_🇩🇪_109 | 109",
+                "Stable_🇺🇸_110 | 110",
+                "Stable_🇳🇱_111 | 111",
+                "Stable_🇺🇸_112 | 112",
+                "Stable_🇬🇧_113 | 113",
+                "Stable_🇺🇸_114 | 114"
+            ]
+        },
+        {
+            "tag": "URL-TEST",
+            "type": "urltest",
+            "outbounds": [
+                "Stable_🇺🇸_1 | 1",
+                "Stable_🇺🇸_2 | 2",
+                "Stable_🇺🇸_3 | 3",
+                "Stable_🇺🇸_4 | 4",
+                "Stable_🇺🇸_5 | 5",
+                "Stable_🇺🇸_6 | 6",
+                "Stable_🇳🇱_7 | 7",
+                "Stable_🇺🇸_8 | 8",
+                "Stable_🇫🇮_9 | 9",
+                "Stable_🇩🇪_10 | 10",
+                "Stable_🇫🇷_11 | 11",
+                "Stable_🇫🇷_12 | 12",
+                "Stable_🇫🇷_13 | 13",
+                "Stable_🇫🇷_14 | 14",
+                "Stable_🇫🇷_15 | 15",
+                "Stable_🇫🇷_16 | 16",
+                "Stable_🇫🇷_17 | 17",
+                "Stable_🇫🇷_18 | 18",
+                "Stable_🇫🇷_19 | 19",
+                "Stable_🇫🇷_20 | 20",
+                "Stable_🇺🇸_21 | 21",
+                "Stable_🇺🇸_22 | 22",
+                "Stable_🇺🇸_23 | 23",
+                "Stable_🇺🇸_24 | 24",
+                "Stable_🇺🇸_25 | 25",
+                "Stable_🇺🇸_26 | 26",
+                "Stable_🇺🇸_27 | 27",
+                "Stable_🇺🇸_28 | 28",
+                "Stable_🇳🇱_29 | 29",
+                "Stable_🇳🇱_30 | 30",
+                "Stable_🇳🇱_31 | 31",
+                "Stable_🇳🇱_32 | 32",
+                "Stable_🇳🇱_33 | 33",
+                "Stable_🇳🇱_34 | 34",
+                "Stable_🇳🇱_35 | 35",
+                "Stable_🇨🇱_36 | 36",
+                "Stable_🇬🇷_37 | 37",
+                "Stable_🇧🇪_38 | 38",
+                "Stable_🇮🇷_39 | 39",
+                "Stable_🇺🇸_40 | 40",
+                "Stable_🇷🇸_41 | 41",
+                "Stable_🇫🇷_42 | 42",
+                "Stable_🇬🇧_43 | 43",
+                "Stable_🇸🇪_44 | 44",
+                "Stable_🇬🇧_45 | 45",
+                "Stable_🇬🇧_46 | 46",
+                "Stable_🇵🇱_47 | 47",
+                "Stable_🇮🇷_48 | 48",
+                "Stable_🇮🇷_49 | 49",
+                "Stable_🇸🇪_50 | 50",
+                "Stable_🇮🇸_51 | 51",
+                "Stable_🇮🇸_52 | 52",
+                "Stable_🇮🇲_53 | 53",
+                "Stable_🇭🇷_54 | 54",
+                "Stable_🇭🇷_55 | 55",
+                "Stable_🇫🇷_56 | 56",
+                "Stable_🇫🇷_57 | 57",
+                "Stable_🇫🇷_58 | 58",
+                "Stable_🇫🇷_59 | 59",
+                "Stable_🇫🇷_60 | 60",
+                "Stable_🇫🇷_61 | 61",
+                "Stable_🇫🇷_62 | 62",
+                "Stable_🇫🇷_63 | 63",
+                "Stable_🇫🇷_64 | 64",
+                "Stable_🇫🇷_65 | 65",
+                "Stable_🇫🇷_66 | 66",
+                "Stable_🇫🇷_67 | 67",
+                "Stable_🇫🇷_68 | 68",
+                "Stable_🇫🇷_69 | 69",
+                "Stable_🇫🇷_70 | 70",
+                "Stable_🇫🇷_71 | 71",
+                "Stable_🇫🇷_72 | 72",
+                "Stable_🇫🇷_73 | 73",
+                "Stable_🇫🇷_74 | 74",
+                "Stable_🇫🇷_75 | 75",
+                "Stable_🇫🇷_76 | 76",
+                "Stable_🇫🇷_77 | 77",
+                "Stable_🇫🇷_78 | 78",
+                "Stable_🇫🇷_79 | 79",
+                "Stable_🇫🇷_80 | 80",
+                "Stable_🇫🇷_81 | 81",
+                "Stable_🇫🇷_82 | 82",
+                "Stable_🇫🇷_83 | 83",
+                "Stable_🇫🇷_84 | 84",
+                "Stable_🇫🇷_85 | 85",
+                "Stable_🇫🇷_86 | 86",
+                "Stable_🇫🇷_87 | 87",
+                "Stable_🇫🇷_88 | 88",
+                "Stable_🇫🇷_89 | 89",
+                "Stable_🇫🇷_90 | 90",
+                "Stable_🇫🇷_91 | 91",
+                "Stable_🇫🇷_92 | 92",
+                "Stable_🇫🇷_93 | 93",
+                "Stable_🇫🇷_94 | 94",
+                "Stable_🇫🇷_95 | 95",
+                "Stable_🇫🇷_96 | 96",
+                "Stable_🇫🇷_97 | 97",
+                "Stable_🇫🇷_98 | 98",
+                "Stable_🇫🇷_99 | 99",
+                "Stable_🇫🇷_100 | 100",
+                "Stable_🇫🇷_101 | 101",
+                "Stable_🇫🇷_102 | 102",
+                "Stable_🇫🇷_103 | 103",
+                "Stable_🇫🇷_104 | 104",
+                "Stable_🇯🇵_105 | 105",
+                "Stable_🇯🇵_106 | 106",
+                "Stable_🇯🇵_107 | 107",
+                "Stable_🇯🇵_108 | 108",
+                "Stable_🇩🇪_109 | 109",
+                "Stable_🇺🇸_110 | 110",
+                "Stable_🇳🇱_111 | 111",
+                "Stable_🇺🇸_112 | 112",
+                "Stable_🇬🇧_113 | 113",
+                "Stable_🇺🇸_114 | 114"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "3m",
+            "tolerance": 50
+        },
+        {
+            "tag": "Stable_🇺🇸_1 | 1",
+            "type": "vmess",
+            "server": "104.16.67.38",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": null,
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "alvvin.click"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "Stable_🇺🇸_2 | 2",
+            "type": "vmess",
+            "server": "104.17.27.43",
+            "server_port": 2087,
+            "uuid": "d0857f50-9b89-4d9c-d0b1-3f3d09a81e1c",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": null,
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": null,
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "Stable_🇺🇸_3 | 3",
+            "type": "vmess",
+            "server": "104.20.231.21",
+            "server_port": 2087,
+            "uuid": "d0857f50-9b89-4d9c-d0b1-3f3d09a81e1c",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": null,
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": null,
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "Stable_🇺🇸_4 | 4",
+            "type": "vmess",
+            "server": "104.21.4.29",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": null,
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "oliv.beauty"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "Stable_🇺🇸_5 | 5",
+            "type": "vmess",
+            "server": "104.21.50.177",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": null,
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "alvvin.click"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "Stable_🇺🇸_6 | 6",
+            "type": "vless",
+            "server": "104.25.16.194",
+            "server_port": 2083,
+            "uuid": "8a7982ff-7696-4f2c-9265-46f6ff45d5f5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "beni.l7933208.workers.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vless-ws\/",
+                "headers": {
+                    "Host": ""
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "Stable_🇳🇱_7 | 7",
+            "type": "shadowsocks",
+            "server": "109.201.152.181",
+            "server_port": 443,
+            "method": "aes-128-cfb",
+            "password": "shadowsocks",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇺🇸_8 | 8",
+            "type": "vless",
+            "server": "12join.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cf-wkrs-pages-vless-aoy.pages.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "Stable_🇫🇮_9 | 9",
+            "type": "vless",
+            "server": "135.181.35.207",
+            "server_port": 443,
+            "uuid": "539f4e23-0caf-4204-a1a5-a5217bbaef1c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
+                    "short_id": "6bb85179e30d4fc2"
+                }
+            }
+        },
+        {
+            "tag": "Stable_🇩🇪_10 | 10",
+            "type": "shadowsocks",
+            "server": "138.199.36.104",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_11 | 11",
+            "type": "shadowsocks",
+            "server": "141.95.125.11",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_12 | 12",
+            "type": "shadowsocks",
+            "server": "146.59.111.195",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_13 | 13",
+            "type": "shadowsocks",
+            "server": "146.59.111.212",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_14 | 14",
+            "type": "shadowsocks",
+            "server": "146.59.71.220",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_15 | 15",
+            "type": "shadowsocks",
+            "server": "162.19.18.105",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_16 | 16",
+            "type": "shadowsocks",
+            "server": "162.19.59.164",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_17 | 17",
+            "type": "shadowsocks",
+            "server": "162.19.59.169",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_18 | 18",
+            "type": "shadowsocks",
+            "server": "162.19.83.11",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_19 | 19",
+            "type": "shadowsocks",
+            "server": "162.19.83.12",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_20 | 20",
+            "type": "shadowsocks",
+            "server": "162.19.83.9",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇺🇸_21 | 21",
+            "type": "vless",
+            "server": "172.64.153.211",
+            "server_port": 443,
+            "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cf-wkrs-pages-vless-aoy.pages.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "Stable_🇺🇸_22 | 22",
+            "type": "vless",
+            "server": "172.66.44.172",
+            "server_port": 443,
+            "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cf-wkrs-pages-vless-aoy.pages.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "Stable_🇺🇸_23 | 23",
+            "type": "vless",
+            "server": "172.66.47.84",
+            "server_port": 443,
+            "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cf-wkrs-pages-vless-aoy.pages.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "Stable_🇺🇸_24 | 24",
+            "type": "vmess",
+            "server": "172.67.142.191",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": null,
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "edeen.makeup"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "Stable_🇺🇸_25 | 25",
+            "type": "vmess",
+            "server": "172.67.164.184",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": null,
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "alvvin.click"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "Stable_🇺🇸_26 | 26",
+            "type": "vless",
+            "server": "172.67.194.57",
+            "server_port": 443,
+            "uuid": "e28bb3f8-e64a-4419-9496-33c46220354b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sdgf.bdfstt.sbs",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "Stable_🇺🇸_27 | 27",
+            "type": "vless",
+            "server": "172.67.221.18",
+            "server_port": 443,
+            "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cf-wkrs-pages-vless-aoy.pages.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/https:\/\/liapp.lockincomp.com\/liapp-learn-more?utm_term=",
+                "headers": {
+                    "Host": ""
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "Stable_🇺🇸_28 | 28",
+            "type": "vmess",
+            "server": "172.67.229.25",
+            "server_port": 2086,
+            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/IOebhLMhl1CTbFHbL95myfRX2",
+                "headers": {
+                    "Host": "ca6.tehme100.fun"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "Stable_🇳🇱_29 | 29",
+            "type": "vless",
+            "server": "188.114.96.109",
+            "server_port": 8443,
+            "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cf-wkrs-pages-vless-aoy.pages.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/https:\/\/passport.8338.hk\/sc\/udomain\/login?_ga=2.242359242.995021333.1694767696-894906061.1694767696",
+                "headers": {
+                    "Host": ""
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "Stable_🇳🇱_30 | 30",
+            "type": "vless",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cf-wkrs-pages-vless-aoy.pages.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "Stable_🇳🇱_31 | 31",
+            "type": "vmess",
+            "server": "188.114.96.7",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": null,
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "edeen.makeup"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "Stable_🇳🇱_32 | 32",
+            "type": "vless",
+            "server": "188.114.97.0",
+            "server_port": 443,
+            "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cf-wkrs-pages-vless-aoy.pages.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "Stable_🇳🇱_33 | 33",
+            "type": "vmess",
+            "server": "188.114.97.1",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": null,
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "odelia.autos"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "Stable_🇳🇱_34 | 34",
+            "type": "vless",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cf-wkrs-pages-vless-aoy.pages.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                },
+                "max_early_data": 2048,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "Stable_🇳🇱_35 | 35",
+            "type": "vless",
+            "server": "188.114.98.121",
+            "server_port": 2087,
+            "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cf-wkrs-pages-vless-aoy.pages.dev",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/yqwbsnzdh21493americanexpress.com\/en-us\/business\/blueprint\/business-line-of-credit\/?refid=amex_p2_sem_nb_p2-loc-gdn-InMarket_ad30_inc|EAIaIQobChMImumJsNz_gAMVRzhPCB1Q9gRXEAEYASAAEgJHXfD_BwE",
+                "headers": {
+                    "Host": ""
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "Stable_🇨🇱_36 | 36",
+            "type": "shadowsocks",
+            "server": "190.120.230.9",
+            "server_port": 989,
+            "method": "aes-256-cfb",
+            "password": "f8f7aCzcPKbsF8p3",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇬🇷_37 | 37",
+            "type": "shadowsocks",
+            "server": "192.71.166.102",
+            "server_port": 989,
+            "method": "aes-256-cfb",
+            "password": "f8f7aCzcPKbsF8p3",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇧🇪_38 | 38",
+            "type": "shadowsocks",
+            "server": "192.71.249.71",
+            "server_port": 989,
+            "method": "aes-256-cfb",
+            "password": "f8f7aCzcPKbsF8p3",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇮🇷_39 | 39",
+            "type": "shadowsocks",
+            "server": "193.142.30.155",
+            "server_port": 2120,
+            "method": "aes-128-gcm",
+            "password": "faster",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇺🇸_40 | 40",
+            "type": "shadowsocks",
+            "server": "194.116.173.21",
+            "server_port": 9038,
+            "method": "aes-256-cfb",
+            "password": "gYCYXfkUQEs2TaJQ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇷🇸_41 | 41",
+            "type": "shadowsocks",
+            "server": "194.71.126.31",
+            "server_port": 989,
+            "method": "aes-256-cfb",
+            "password": "f8f7aCzcPKbsF8p3",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_42 | 42",
+            "type": "shadowsocks",
+            "server": "195.154.185.174",
+            "server_port": 989,
+            "method": "aes-256-cfb",
+            "password": "f8f7aCzcPKbsF8p3",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇬🇧_43 | 43",
+            "type": "shadowsocks",
+            "server": "195.181.165.151",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇸🇪_44 | 44",
+            "type": "shadowsocks",
+            "server": "195.181.166.176",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇬🇧_45 | 45",
+            "type": "shadowsocks",
+            "server": "198.244.228.191",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇬🇧_46 | 46",
+            "type": "shadowsocks",
+            "server": "198.244.231.26",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇵🇱_47 | 47",
+            "type": "shadowsocks",
+            "server": "217.30.10.68",
+            "server_port": 9038,
+            "method": "aes-256-cfb",
+            "password": "gYCYXfkUQEs2TaJQ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇮🇷_48 | 48",
+            "type": "vmess",
+            "server": "31.14.114.52",
+            "server_port": 46537,
+            "uuid": "ef245bb8-301e-418e-ac32-264ef197dbba",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": null
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "Stable_🇮🇷_49 | 49",
+            "type": "vless",
+            "server": "33.vmessprotocol.telegram-vmessprotocol-channel.space",
+            "server_port": 44364,
+            "uuid": "16908063-6db5-456d-bdd7-22b1e79fcd47",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "Stable_🇸🇪_50 | 50",
+            "type": "shadowsocks",
+            "server": "37.19.222.212",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇮🇸_51 | 51",
+            "type": "shadowsocks",
+            "server": "37.235.49.152",
+            "server_port": 989,
+            "method": "aes-256-cfb",
+            "password": "f8f7aCzcPKbsF8p3",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇮🇸_52 | 52",
+            "type": "shadowsocks",
+            "server": "37.235.49.162",
+            "server_port": 989,
+            "method": "aes-256-cfb",
+            "password": "f8f7aCzcPKbsF8p3",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇮🇲_53 | 53",
+            "type": "shadowsocks",
+            "server": "37.235.55.21",
+            "server_port": 989,
+            "method": "aes-256-cfb",
+            "password": "f8f7aCzcPKbsF8p3",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇭🇷_54 | 54",
+            "type": "shadowsocks",
+            "server": "46.183.184.60",
+            "server_port": 989,
+            "method": "aes-256-cfb",
+            "password": "f8f7aCzcPKbsF8p3",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇭🇷_55 | 55",
+            "type": "shadowsocks",
+            "server": "46.183.184.61",
+            "server_port": 989,
+            "method": "aes-256-cfb",
+            "password": "f8f7aCzcPKbsF8p3",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_56 | 56",
+            "type": "shadowsocks",
+            "server": "51.158.195.96",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_57 | 57",
+            "type": "shadowsocks",
+            "server": "51.158.195.96",
+            "server_port": 80,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_58 | 58",
+            "type": "shadowsocks",
+            "server": "51.158.200.119",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_59 | 59",
+            "type": "shadowsocks",
+            "server": "51.158.200.138",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_60 | 60",
+            "type": "shadowsocks",
+            "server": "51.158.200.145",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_61 | 61",
+            "type": "shadowsocks",
+            "server": "51.158.200.164",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_62 | 62",
+            "type": "shadowsocks",
+            "server": "51.158.200.45",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_63 | 63",
+            "type": "shadowsocks",
+            "server": "51.158.200.76",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_64 | 64",
+            "type": "shadowsocks",
+            "server": "51.158.200.95",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_65 | 65",
+            "type": "shadowsocks",
+            "server": "51.158.202.190",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_66 | 66",
+            "type": "shadowsocks",
+            "server": "51.158.202.199",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_67 | 67",
+            "type": "shadowsocks",
+            "server": "51.158.202.251",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_68 | 68",
+            "type": "shadowsocks",
+            "server": "51.158.202.252",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_69 | 69",
+            "type": "shadowsocks",
+            "server": "51.158.202.254",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_70 | 70",
+            "type": "shadowsocks",
+            "server": "51.158.203.2",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_71 | 71",
+            "type": "shadowsocks",
+            "server": "51.158.203.3",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_72 | 72",
+            "type": "shadowsocks",
+            "server": "51.158.203.5",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_73 | 73",
+            "type": "shadowsocks",
+            "server": "51.158.203.6",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_74 | 74",
+            "type": "shadowsocks",
+            "server": "51.158.204.25",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_75 | 75",
+            "type": "shadowsocks",
+            "server": "51.158.204.42",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_76 | 76",
+            "type": "shadowsocks",
+            "server": "51.158.204.81",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_77 | 77",
+            "type": "shadowsocks",
+            "server": "51.158.204.82",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_78 | 78",
+            "type": "shadowsocks",
+            "server": "51.158.37.251",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_79 | 79",
+            "type": "shadowsocks",
+            "server": "51.158.37.62",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_80 | 80",
+            "type": "shadowsocks",
+            "server": "51.158.54.209",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_81 | 81",
+            "type": "shadowsocks",
+            "server": "51.158.54.210",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_82 | 82",
+            "type": "shadowsocks",
+            "server": "51.158.54.216",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_83 | 83",
+            "type": "shadowsocks",
+            "server": "51.158.54.229",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_84 | 84",
+            "type": "shadowsocks",
+            "server": "51.158.54.232",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_85 | 85",
+            "type": "shadowsocks",
+            "server": "51.158.54.238",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_86 | 86",
+            "type": "shadowsocks",
+            "server": "51.158.61.122",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_87 | 87",
+            "type": "shadowsocks",
+            "server": "51.158.61.155",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_88 | 88",
+            "type": "shadowsocks",
+            "server": "51.158.61.69",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_89 | 89",
+            "type": "shadowsocks",
+            "server": "51.159.104.104",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_90 | 90",
+            "type": "shadowsocks",
+            "server": "51.159.111.208",
+            "server_port": 989,
+            "method": "aes-256-cfb",
+            "password": "f8f7aCzcPKbsF8p3",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_91 | 91",
+            "type": "shadowsocks",
+            "server": "51.159.210.114",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_92 | 92",
+            "type": "shadowsocks",
+            "server": "51.159.221.203",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_93 | 93",
+            "type": "shadowsocks",
+            "server": "51.159.222.19",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_94 | 94",
+            "type": "shadowsocks",
+            "server": "51.159.222.22",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_95 | 95",
+            "type": "shadowsocks",
+            "server": "51.159.222.32",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_96 | 96",
+            "type": "shadowsocks",
+            "server": "51.159.222.33",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_97 | 97",
+            "type": "shadowsocks",
+            "server": "51.159.222.35",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_98 | 98",
+            "type": "shadowsocks",
+            "server": "57.128.141.15",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_99 | 99",
+            "type": "shadowsocks",
+            "server": "62.210.88.155",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_100 | 100",
+            "type": "shadowsocks",
+            "server": "62.210.88.156",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_101 | 101",
+            "type": "shadowsocks",
+            "server": "62.210.88.157",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_102 | 102",
+            "type": "shadowsocks",
+            "server": "62.210.88.164",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_103 | 103",
+            "type": "shadowsocks",
+            "server": "62.210.88.168",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇫🇷_104 | 104",
+            "type": "shadowsocks",
+            "server": "62.210.88.169",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇯🇵_105 | 105",
+            "type": "shadowsocks",
+            "server": "84.17.34.109",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇯🇵_106 | 106",
+            "type": "shadowsocks",
+            "server": "84.17.34.110",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇯🇵_107 | 107",
+            "type": "shadowsocks",
+            "server": "84.17.34.111",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇯🇵_108 | 108",
+            "type": "shadowsocks",
+            "server": "84.17.34.112",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇩🇪_109 | 109",
+            "type": "shadowsocks",
+            "server": "89.187.169.38",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇺🇸_110 | 110",
+            "type": "shadowsocks",
+            "server": "89.187.179.192",
+            "server_port": 443,
+            "method": "aes-256-cfb",
+            "password": "asdKkaskJKfnsa",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇳🇱_111 | 111",
+            "type": "vless",
+            "server": "allrevolt.r8volt.com",
+            "server_port": 443,
+            "uuid": "eefcf749-fcfc-4321-b974-2828d4acb15c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "guerrilla-games.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "imTeVCUujulNZ2LJNaZrWlOGcN0tgm0km15N8jc55j4",
+                    "short_id": "dcd651ed"
+                }
+            }
+        },
+        {
+            "tag": "Stable_🇺🇸_112 | 112",
+            "type": "vless",
+            "server": "newtunnel-2xm.pages.dev",
+            "server_port": 443,
+            "uuid": "70ea7a10-de3e-4922-bc7c-4dd7c2cef882",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vless",
+                "headers": {
+                    "Host": ""
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "Stable_🇬🇧_113 | 113",
+            "type": "shadowsocks",
+            "server": "series-a2-me.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "Stable_🇺🇸_114 | 114",
+            "type": "vless",
+            "server": "whtamiz16.radarmarkazi.site",
+            "server_port": 80,
+            "uuid": "eb57c9cd-265c-4a48-906c-a081a2d57e46",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "direct",
+            "type": "direct"
+        },
+        {
+            "tag": "bypass",
+            "type": "direct"
+        },
+        {
+            "tag": "block",
+            "type": "block"
+        },
+        {
+            "tag": "dns-out",
+            "type": "dns"
+        }
+    ],
+    "route": {
+        "auto_detect_interface": true,
+        "override_android_vpn": true,
+        "final": "proxy",
+        "geoip": {
+            "download_url": "https:\/\/github.com\/MiSaturo\/sing-box-geoip-ir\/releases\/latest\/download\/geoip.db",
+            "download_detour": "direct"
+        },
+        "geosite": {
+            "download_url": "https:\/\/github.com\/MasterKia\/iran-hosted-domains\/releases\/latest\/download\/iran-geosite.db",
+            "download_detour": "direct"
+        },
+        "rules": [
+            {
+                "outbound": "dns-out",
+                "port": [
+                    53
+                ]
+            },
+            {
+                "inbound": [
+                    "dns-in"
+                ],
+                "outbound": "dns-out"
+            },
+            {
+                "domain_suffix": [
+                    "ir"
+                ],
+                "outbound": "bypass"
+            },
+            {
+                "geoip": [
+                    "ir"
+                ],
+                "outbound": "bypass"
+            },
+            {
+                "geosite": [
+                    "ir"
+                ],
+                "outbound": "direct"
+            },
+            {
+                "geosite": [
+                    "other"
+                ],
+                "outbound": "direct"
+            },
+            {
+                "geosite": [
+                    "ads"
+                ],
+                "outbound": "block"
+            },
+            {
+                "ip_cidr": [
+                    "224.0.0.0\/3",
+                    "ff00::\/8"
+                ],
+                "outbound": "block",
+                "source_ip_cidr": [
+                    "224.0.0.0\/3",
+                    "ff00::\/8"
+                ]
+            }
+        ]
+    }
+}
