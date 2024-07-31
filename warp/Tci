@@ -1,8 +1,4 @@
-warp://188.114.99.80:2408?ifp=10-20&ifpm=m1#m1
-warp://162.159.195.198:2408?ifp=10-20&ifpm=m2#m2
-warp://188.114.99.80:2408?ifp=10-20&ifpm=m3#m3
-warp://188.114.99.80:2408?ifp=10-20&ifpm=m4#m4
-warp://162.159.195.198:2408?ifp=5-10&ifpm=m5#m5
-warp://162.159.195.198:2408?ifp=5-10&ifpm=m6#m6
-warp://162.159.195.198:2408?ifp=5-10&ifpm=h_30#h_30     
-warp://162.159.195.198:2408?ifp=5-10&ifpm=g_10_20_30#g_10_20_30
+warp://p1@162.159.192.102:890?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#warp0&&detour=warp://p2@162.159.192.102:890#warp0
+warp://p1@188.114.97.170:894?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#warp1&&detour=warp://p2@188.114.97.170:894#warp1
+warp://162.159.192.170:4500?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#warp2&&detour=warp://162.159.192.170:4500?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#warp2
+warp://162.159.192.159:7152?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#warp3&&detour=warp://162.159.192.159:7152?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#warp3
