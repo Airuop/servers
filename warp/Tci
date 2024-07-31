@@ -2,3 +2,6 @@ warp://p1@162.159.192.102:890?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#warp0&&deto
 warp://p1@188.114.97.170:894?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#warp1&&detour=warp://p2@188.114.97.170:894#warp1
 warp://162.159.192.170:4500?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#warp2&&detour=warp://162.159.192.170:4500?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#warp2
 warp://162.159.192.159:7152?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#warp3&&detour=warp://162.159.192.159:7152?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#warp3
+warp://p1@162.159.192.159:7152?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#warp4&&detour=warp://p2@162.159.192.159:7152?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#warp4
+warp://162.159.192.102:890?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#warp5&&detour=warp://162.159.192.102:890#warp5
+warp://p1@162.159.192.159:7152?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#warp6
