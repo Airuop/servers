@@ -1,6 +1,4 @@
-# clash rules in text format, require clash permium 1.15.0+ or clash-meta 1.14.4+
-+.github.com       
-+.githubusercontent.com       
+# clash rules in text format, require clash permium 1.15.0+ or clash-meta 1.14.4+  
 +.google.com       
 +.downloadyarbot.ir
 +.uploadboy.com
