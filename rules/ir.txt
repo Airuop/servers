@@ -12914,6 +12914,7 @@
 +.cloudserver.cfd
 +.cloudsnap.cloud
 +.cloudsum.net
++.cloudtechidc.com
 +.cloudwork.shop
 +.cloudy.academy
 +.cloudymo.com
@@ -14177,6 +14178,7 @@
 +.datacoders.org
 +.datadars.com
 +.datadisability.com
++.dataduonet.com
 +.dataecom.com
 +.datalilt.com
 +.datam-shop.com
@@ -22454,6 +22456,7 @@
 +.green-ac.co
 +.green-lifes.com
 +.green-ping.com
++.green-ping.lol
 +.green-ping.net
 +.green-ping.org
 +.green-theme.com
@@ -23268,7 +23271,7 @@
 +.hamtakala.com
 +.hamtaloans.com
 +.hamtamobile.com
-+.hamtamovie.my
++.hamtamovie.net
 +.hamtanab.net
 +.hamtanovin.com
 +.hamtanshop.com
@@ -38048,6 +38051,7 @@
 +.mrelectrobot.com
 +.mrelectron.org
 +.mrenergyplus.com
++.mrenglisi.com
 +.mrerfstudio.com
 +.mrexchanger.com
 +.mreynak.com
