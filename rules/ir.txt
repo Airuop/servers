@@ -20815,6 +20815,7 @@
 +.gamedns.top
 +.gamedoony.com
 +.gamedub.net
++.gameeroid.space
 +.gamefa.com
 +.gamefurush.com
 +.gamegift.net
@@ -23271,7 +23272,6 @@
 +.hamtakala.com
 +.hamtaloans.com
 +.hamtamobile.com
-+.hamtamovie.net
 +.hamtanab.net
 +.hamtanovin.com
 +.hamtanshop.com
@@ -38317,6 +38317,7 @@
 +.musickordi.com
 +.musicsfarsi.com
 +.musicstringer.com
++.musilon.com
 +.muskadstore.com
 +.mustafaprize.org
 +.mutfakim.com
@@ -40285,6 +40286,7 @@
 +.nimcatco.com
 +.nimche.com
 +.nimcoglobal.com
++.nimdowngame.top
 +.nimeh.art
 +.nimesco.net
 +.nimkad.com
