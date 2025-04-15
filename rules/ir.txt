@@ -5217,6 +5217,7 @@
 +.arsabo.com
 +.arsakala.com
 +.arsalanasadi.com
++.arsalanenglish.com
 +.arsalanpakhsh.com
 +.arsalanproduct.com
 +.arsalanshop.com
@@ -6458,6 +6459,7 @@
 +.atighaccessory.com
 +.atighservice.com
 +.atighshop.com
++.atigostar.net
 +.atiibeauty.com
 +.atikadiet.com
 +.atikalamarket.com
@@ -15285,7 +15287,6 @@
 +.digigame.shop
 +.digigamepro.com
 +.digigate.app
-+.digigerman.com
 +.digighate.com
 +.digighest.com
 +.digighesti.com
@@ -15745,11 +15746,13 @@
 +.dlgamesh.site
 +.dlget.xyz
 +.dlian.shop
++.dlmnf.online
 +.dlmostanad.com
 +.dlmrm.xyz
 +.dlrepo.com
 +.dlservers.fun
 +.dlsthosting.org
++.dluffy.site
 +.dluxe1990.com
 +.dlyar.com
 +.dlzar.com
@@ -16287,7 +16290,6 @@
 +.downloaddo.net
 +.downloadfa.org
 +.downloadha.com
-+.downloadkadeh.online
 +.downloadnema.com
 +.downloadplus.link
 +.downloadplus.org
@@ -19756,6 +19758,7 @@
 +.feekala.com
 +.feeket.com
 +.feelinger.com
++.feelingleather.com
 +.feelo.shop
 +.feelsoof.com
 +.feeno.net
@@ -23272,6 +23275,7 @@
 +.hamtakala.com
 +.hamtaloans.com
 +.hamtamobile.com
++.hamtamovie.net
 +.hamtanab.net
 +.hamtanovin.com
 +.hamtanshop.com
@@ -24012,6 +24016,7 @@
 +.heviran.com
 +.hexa6.net
 +.hexa8.org
++.hexadl.com
 +.hexaelectronic.com
 +.hexainvest.co
 +.hexapardakht.com
@@ -24111,6 +24116,7 @@
 +.hidokmeh.com
 +.hidrolikbaradaran.com
 +.hidrotechnique.com
++.hielina.online
 +.hienglish.me
 +.hifilterland.com
 +.hifubeautyshop.com
@@ -36355,6 +36361,7 @@
 +.mili-phone.com
 +.milieshop.com
 +.miliume.com
++.milkywaymanger.shop
 +.milli.gold
 +.millionisho.com
 +.milotoy.com
@@ -36670,7 +36677,6 @@
 +.mkoparts.com
 +.mkpapp.com
 +.mkstylee.shop
-+.mkte.ch
 +.mktechno.shop
 +.mlckala.com
 +.mlearna.com
@@ -42993,6 +42999,7 @@
 +.parsa24.com
 +.parsaashop.com
 +.parsablog.com
++.parsabr.com
 +.parsabzarkavir.com
 +.parsacad.com
 +.parsacademy.top
@@ -45025,6 +45032,7 @@
 +.piroozilaptop.com
 +.piroozyhotel.com
 +.pirouznam.com
++.piroz.host
 +.pirozjameh.com
 +.pirozmarket.com
 +.pirpublication.com
@@ -46072,6 +46080,7 @@
 +.puzzleiran.com
 +.puzzlekade.com
 +.puzzlekala.com
++.puzzlelanguage.com
 +.puzzlemobiles.com
 +.puzzlesleep.com
 +.puzzley.net
@@ -54705,7 +54714,6 @@
 +.starkkala.com
 +.starlandshoes.com
 +.starlifeiran.com
-+.starmizban.com
 +.starmobo.com
 +.staronmarket.com
 +.staronstore.com
@@ -57036,6 +57044,7 @@
 +.tehranscooter.com
 +.tehranseal.com
 +.tehransell.com
++.tehranserver.net
 +.tehransgachapter.com
 +.tehranshiralat.com
 +.tehransim.com
@@ -58349,6 +58358,7 @@
 +.tripbama.com
 +.tripcenter24.com
 +.tripenjoy.net
++.tripswithbetty.com
 +.tripvc.com
 +.tripyar.com
 +.tritamed.com
@@ -59890,7 +59900,6 @@
 +.webcadeh.com
 +.webcaster.dev
 +.webcomarket.com
-+.webculla.com
 +.webdade.com
 +.webdanesh.com
 +.webdaran.com
