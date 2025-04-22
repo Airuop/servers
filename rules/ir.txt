@@ -4143,6 +4143,7 @@
 +.araaxshop.com
 +.arabanaco.com
 +.arabeilgar.com
++.arabimadio.com
 +.arabs-online.com
 +.arachemishop.com
 +.arachid.com
@@ -11300,6 +11301,7 @@
 +.businessleaders.academy
 +.businessshana.com
 +.buskool.com
++.busnet.app
 +.busnetapp.com
 +.bustello.co
 +.butan-shop.com
@@ -16290,6 +16292,7 @@
 +.downloaddo.net
 +.downloadfa.org
 +.downloadha.com
++.downloadkadeh.online
 +.downloadnema.com
 +.downloadplus.link
 +.downloadplus.org
@@ -18583,6 +18586,7 @@
 +.exp-co.com
 +.expaliran.org
 +.expert1.org
++.expertapp.org
 +.expertvivagroup.com
 +.explorebyrunning.com
 +.expoart.co
@@ -26618,6 +26622,7 @@
 +.iranianlaptop.com
 +.iranianmedievalhistory.com
 +.iranianmlm.com
++.iraniannimdown.com
 +.iraniannurse.com
 +.iraniannuts.com
 +.iranianpath.com
@@ -32608,6 +32613,7 @@
 +.liantak.com
 +.liantejarat.com
 +.liantranslation.com
++.lianvps.com
 +.lianyazd.com
 +.liara.run
 +.liara.space
@@ -46929,6 +46935,7 @@
 +.rangarangax.com
 +.rangarangcpn.com
 +.rangarangkala.com
++.rangarangsoft.com
 +.rangarangvark-shirini.com
 +.rangarshop.com
 +.rangasa.com
@@ -50450,6 +50457,7 @@
 +.saracakeschool.com
 +.saracharity.org
 +.saraeian-store.com
++.saraf.app
 +.sarafi-havale.com
 +.sarafi.eu
 +.sarafi24.com
@@ -57153,6 +57161,7 @@
 +.tele-host.com
 +.tele-teachers.com
 +.tele-wall.com
++.tele-webion.site
 +.telecabinramsar.com
 +.telechannels.me
 +.telecompack.com
@@ -59972,6 +59981,7 @@
 +.weblin.dev
 +.webline.dev
 +.weblite.im
++.weblite.me
 +.weblog.sc
 +.weblogchi.com
 +.weblogibc-co.com
