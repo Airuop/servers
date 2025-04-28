@@ -3,7 +3,7 @@ name: Download and Update Files
 on:
   workflow_dispatch:  # Allows manual triggering
   schedule:
-    - cron: '0 0 * * *'  # Runs daily at midnight (optional)
+    - cron: '0 0 * * 5'  # Runs every Friday 
 
 jobs:
   download-and-update:
