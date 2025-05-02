@@ -7044,6 +7044,7 @@
 +.avidafrooz.com
 +.avidcarton.com
 +.avidclinic.org
++.avidmehregan.com
 +.avidseen.com
 +.avidshayan.com
 +.avidtejarat.com
@@ -24311,7 +24312,6 @@
 +.hiva-shop.com
 +.hiva.live
 +.hiva.sale
-+.hiva360.shop
 +.hivachap.com
 +.hivacollection.com
 +.hivacompany.com
@@ -29065,6 +29065,7 @@
 +.kakopelast.com
 +.kakopeyk.com
 +.kaktoosmarket.com
++.kaktos98.store
 +.kaktosmod.com
 +.kala-center.com
 +.kala-khab-genaveh.com
@@ -51872,6 +51873,7 @@
 +.shadoone.com
 +.shadoragroup.com
 +.shadoshik.com
++.shadowmafia.online
 +.shadowskiller.app
 +.shadowstore5377.com
 +.shadramco.com
@@ -53071,6 +53073,7 @@
 +.shoeslandco.com
 +.shoesmiracle.com
 +.shoestebi.com
++.shofaj.shop
 +.shofazh.com
 +.shofazhiran.com
 +.shofazhsanat.com
