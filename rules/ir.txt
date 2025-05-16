@@ -15040,6 +15040,7 @@
 +.dibacover.com
 +.dibadaroo.com
 +.dibadoor110.com
++.dibaenergy.com
 +.dibafam.com
 +.dibaft.com
 +.dibaftkala.com
@@ -15056,6 +15057,7 @@
 +.dibaoriginal.com
 +.dibapartco.com
 +.dibapc.com
++.dibaptc.com
 +.dibarad.co
 +.dibasabz.com
 +.dibasara.com
@@ -31672,6 +31674,7 @@
 +.kojour.com
 +.koker.design
 +.kokonad.com
++.kolah98.store
 +.kolahbazi.com
 +.kolahkhod.com
 +.kolahshopo.com
@@ -46362,6 +46365,7 @@
 +.radamoz.com
 +.radanhost.com
 +.radaplastic.com
++.radar.game
 +.radar.shop
 +.radar361.com
 +.radarcctv.org
@@ -54475,7 +54479,6 @@
 +.soularpump.com
 +.soulbeautyclub.com
 +.soumagallery.com
-+.soundhub.me
 +.soundiran.com
 +.soupeshadi.com
 +.souqalahwaz.com
@@ -56133,6 +56136,7 @@
 +.tanyabeauty.shop
 +.tanyar.org
 +.tanyarteam.com
++.tanzdl.com
 +.tanzib.com
 +.tanzibfit.com
 +.tanzim-eng.com
@@ -56800,6 +56804,7 @@
 +.techopay.top
 +.techrasa.com
 +.techrato.com
++.techsiro.com
 +.techtik.com
 +.techtik.shop
 +.techtour.shop
@@ -56857,6 +56862,7 @@
 +.tehraanmall.net
 +.tehraj.com
 +.tehrakala.com
++.tehran-021.net
 +.tehran-ahan.com
 +.tehran-car.com
 +.tehran-cars.com
@@ -60010,6 +60016,7 @@
 +.webnim.ml
 +.webo.cam
 +.webolar.com
++.webolin.site
 +.webone.co
 +.webpardaz.net
 +.webpars.co
