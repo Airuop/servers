@@ -11259,7 +11259,6 @@
 +.bug-father.top
 +.buildiom.com
 +.buinshop.com
-+.bukala.me
 +.bukanjobs.com
 +.bukankala.com
 +.bukharamag.com
@@ -16295,7 +16294,6 @@
 +.downloaddo.net
 +.downloadfa.org
 +.downloadha.com
-+.downloadkadeh.online
 +.downloadnema.com
 +.downloadplus.link
 +.downloadplus.org
@@ -19649,7 +19647,6 @@
 +.fastkharid.com
 +.fastlynet.com
 +.fastmokamel.com
-+.fastnetworkcdn.xyz
 +.fastniaz.com
 +.fastshot.net
 +.fastyserver.com
@@ -21635,8 +21632,6 @@
 +.giftfa.store
 +.giftgold.net
 +.giftha.shop
-+.giftha24.com
-+.giftha24.ru
 +.gifthoseini.com
 +.giftimifti.shop
 +.giftino.cards
@@ -22026,6 +22021,7 @@
 +.goldbazar.com
 +.goldbosch.com
 +.goldchoob.com
++.goldcl1.com
 +.goldcloud1.com
 +.goldda.shop
 +.golden-beauty.store
@@ -24543,7 +24539,6 @@
 +.hometechmarket.com
 +.hometez.com
 +.hometooys.com
-+.homeweb1.com
 +.homex.co
 +.homex365.com
 +.homeyno.com
@@ -37803,6 +37798,7 @@
 +.moshircomplex.com
 +.moshiri-carpet-kilim.com
 +.moshiricarpetmaktab.com
++.moshirin.com
 +.moshirkhalvat.com
 +.moshkperfume.com
 +.moshsmart.com
@@ -37935,6 +37931,7 @@
 +.movieboxtv.com
 +.movielix.org
 +.movienama.com
++.movieq.top
 +.moviereviewmag.com
 +.movineh.com
 +.mowaco.com
@@ -38404,7 +38401,6 @@
 +.mydnspanel.com
 +.mydreamweaver.biz
 +.mydreamyhouse.com
-+.myds.me
 +.myelbc.com
 +.myepanel.com
 +.myernest.com
@@ -40938,6 +40934,7 @@
 +.novaorganic.net
 +.novarastyle.com
 +.novariamod.com
++.novatech1.shop
 +.novavira.com
 +.noveinkala.com
 +.novelchoco.com
@@ -45974,6 +45971,7 @@
 +.psmim.com
 +.psmlub.com
 +.psmng.com
++.psndatabase.com
 +.psnmco.com
 +.psnsha.com
 +.psp-group.shop
@@ -46065,6 +46063,7 @@
 +.puresoftware.org
 +.purple-petal.com
 +.purplehdd.com
++.purplemodule.com
 +.pushakelashgari.com
 +.pushakkade.com
 +.pushakordibehesht.com
@@ -46686,6 +46685,7 @@
 +.rahgard.com
 +.rahgostarnaft.org
 +.rahiansalamat.com
++.rahighshop.com
 +.rahil-mezoun.com
 +.rahilabdollahii.com
 +.rahilhoney.com
@@ -50057,6 +50057,7 @@
 +.sambulk.com
 +.samcat.co
 +.samchegini.com
++.samcloud.news
 +.samehkala.com
 +.samehrstore.com
 +.samekid.com
@@ -56844,7 +56845,6 @@
 +.tefalkish.com
 +.teflonsara.com
 +.tegminmarket.com
-+.tegrahost.com
 +.teh-automation.com
 +.teh-movies.com
 +.teh-ram.com
@@ -59919,6 +59919,7 @@
 +.webcaster.dev
 +.webcomarket.com
 +.webdade.com
++.webdade.site
 +.webdanesh.com
 +.webdaran.com
 +.webdarou.com
@@ -61575,6 +61576,7 @@
 +.zarvinehsaffron.com
 +.zaryaalgold.com
 +.zaryabmusicschool.com
++.zaryadak.com
 +.zaryvan.com
 +.zatcollection.com
 +.zaticshop.com
