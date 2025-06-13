@@ -6026,6 +6026,7 @@
 +.asemanro.com
 +.asemanscarf.com
 +.asemanseyr.com
++.asemansteel.net
 +.asemansystem.com
 +.asemanteam.com
 +.asemoni.shop
@@ -16294,6 +16295,7 @@
 +.downloaddo.net
 +.downloadfa.org
 +.downloadha.com
++.downloadkadeh.online
 +.downloadnema.com
 +.downloadplus.link
 +.downloadplus.org
@@ -21632,6 +21634,7 @@
 +.giftfa.store
 +.giftgold.net
 +.giftha.shop
++.giftha24.com
 +.gifthoseini.com
 +.giftimifti.shop
 +.giftino.cards
@@ -22463,7 +22466,6 @@
 +.green-ac.co
 +.green-lifes.com
 +.green-ping.com
-+.green-ping.lol
 +.green-ping.net
 +.green-ping.org
 +.green-theme.com
@@ -27528,6 +27530,7 @@
 +.irvenus.com
 +.irvm.org
 +.irvoucher.com
++.irvps.online
 +.irwebco.com
 +.irwebhost.com
 +.irwebnet.com
@@ -39737,6 +39740,7 @@
 +.networknim.cam
 +.networksara.com
 +.netx.pro
++.neunism.site
 +.neuronex.app
 +.neurosafari.com
 +.neurosurgeryinfo.com
@@ -41883,6 +41887,7 @@
 +.orinakala.com
 +.orishem.com
 +.orishom.com
++.orixserver.com
 +.orjbeauty.com
 +.orjinyadak.com
 +.orkidcenter.com
@@ -45271,6 +45276,7 @@
 +.platinwatch.com
 +.platphone.com
 +.playlinkiran.com
++.playncr.top
 +.playnewmusic.com
 +.playsong.info
 +.playsony.com
@@ -47182,7 +47188,6 @@
 +.rastaakprint.com
 +.rastabook.com
 +.rastabp.com
-+.rastadco.top
 +.rastadent.com
 +.rastadgroup.com
 +.rastadmarket.com
@@ -48847,6 +48852,7 @@
 +.rsgiran.com
 +.rshel.com
 +.rshiko.com
++.rskhi.online
 +.rsoil.co
 +.rsrastak.com
 +.rsrcranes.com
@@ -53274,6 +53280,7 @@
 +.shorayaran.com
 +.shoreshmahmoudi.site
 +.shoro-academy.com
++.short1.sbs
 +.shortslink.com
 +.shoshland.com
 +.shot-gift.com
@@ -54705,6 +54712,7 @@
 +.staarrbeauty.com
 +.stabilizerhany.com
 +.stackvps.sbs
++.stafillo.com
 +.stagcrm.com
 +.stakala.com
 +.stalia.shop
@@ -54729,6 +54737,7 @@
 +.starkkala.com
 +.starlandshoes.com
 +.starlifeiran.com
++.starmizban.com
 +.starmobo.com
 +.staronmarket.com
 +.staronstore.com
@@ -60017,7 +60026,6 @@
 +.webnim.ml
 +.webo.cam
 +.webolar.com
-+.webolin.site
 +.webone.co
 +.webpardaz.net
 +.webpars.co
