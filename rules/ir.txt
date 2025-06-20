@@ -250,6 +250,7 @@
 +.24visas.com
 +.24zibai.com
 +.26-fe.com
++.2agoo.com
 +.2b2kala.com
 +.2ba2.com
 +.2bace.com
@@ -602,6 +603,7 @@
 +.9kala.com
 +.9movie.co
 +.9studiogroup.com
++.contentvm.com
 +.a-hekmat.com
 +.a-kafimusic.com
 +.a-ketab.com
@@ -1540,6 +1542,7 @@
 +.adm-co.net
 +.admartiz.com
 +.admastersir.com
++.admentor.net
 +.admhome.shop
 +.admin-yar.com
 +.adminchi.pro
@@ -3370,6 +3373,7 @@
 +.amirgol.com
 +.amirhafezi.com
 +.amirhasan.com.tr
++.amirhashemi.info
 +.amirhesamgallery.com
 +.amirhoseinghasemi.com
 +.amirhossein-nuts.com
@@ -5762,6 +5766,7 @@
 +.asalaz.com
 +.asalazarstan.com
 +.asalbaldi.com
++.asalbanooshop.com
 +.asalbook.com
 +.asalbusiness.com
 +.asalct.com
@@ -5983,6 +5988,7 @@
 +.asbabkar.com
 +.asbabsaz.com
 +.asbakmahi.com
++.asbasket.com
 +.asbazar.com
 +.asbdavani.com
 +.asbe-bokhar.com
@@ -6115,6 +6121,7 @@
 +.asia-panel.com
 +.asia-teb.com
 +.asia-tile.com
++.asia.pool.ntp.org
 +.asia26336.com
 +.asiabalabar.com
 +.asiabam.com
@@ -9463,6 +9470,7 @@
 +.behbooddrugstore.com
 +.behboodestan.com
 +.behboodfardi.com
++.behboodiclinic.com
 +.behboodpelast.com
 +.behboodtamin.com
 +.behbook.com
@@ -10596,6 +10604,7 @@
 +.bloghaa.com
 +.bloghnews.com
 +.blogmehr.com
++.blogmmd.com
 +.blogparsi.com
 +.blogsky.com
 +.blogtarin.com
@@ -10952,6 +10961,7 @@
 +.boozarjomehronline.com
 +.boraqsms.com
 +.bordanepardaz.com
++.bordar.live
 +.bordar.me
 +.bordarshib.com
 +.bordbaaz.com
@@ -11485,6 +11495,7 @@
 +.cafeposhtiban.com
 +.cafepsd.com
 +.cafeqanon.com
++.caferahnama.com
 +.caferamz.com
 +.caferayaneh.com
 +.caferesin.com
@@ -13595,6 +13606,7 @@
 +.dana-insurance.com
 +.dana-mobile.com
 +.dana-rayaneh.com
++.danaabr.com
 +.danaandishan.com
 +.danabad.com
 +.danaban.net
@@ -13962,6 +13974,7 @@
 +.darookoo.com
 +.darooma.com
 +.daroomarkaz.com
++.daroomaro.com
 +.daroomiyareh.com
 +.daroomo.com
 +.daroomoheb.com
@@ -14276,6 +14289,7 @@
 +.dayaland.app
 +.dayamooz.co
 +.dayamooz.com
++.dayan-co.com
 +.dayanacolor.com
 +.dayanaffiliate.com
 +.dayanatravel.com
@@ -15484,6 +15498,7 @@
 +.digisalamat.net
 +.digisamin.com
 +.digisarang.com
++.digisargarmy.com
 +.digisaul.com
 +.digisaveh.com
 +.digisaz.com
@@ -15826,6 +15841,7 @@
 +.doctor-sadr.com
 +.doctorabad.com
 +.doctorabzar.com
++.doctorakbari.com
 +.doctorbama.com
 +.doctorbidaki.com
 +.doctorelectricc.com
@@ -16528,6 +16544,7 @@
 +.drderma.co
 +.drdnaderi.com
 +.drdolatyari.com
++.drdonyakarami.com
 +.drdortaj.com
 +.dream-dress.org
 +.dream-ghab.com
@@ -16603,6 +16620,7 @@
 +.drhaghnazar.com
 +.drhajibegloo.com
 +.drhajiyousefi.com
++.drhakemzadeh.com
 +.drhame.com
 +.drhamedgholizadeh.com
 +.drhamedmohammadi.com
@@ -16641,10 +16659,12 @@
 +.drjalily.com
 +.drjam.co
 +.drjanebi.com
++.drjavadiclinic.com
 +.drjavan.shop
 +.drjooya.com
 +.drkaamel.com
 +.drkalantarivet.com
++.drkamran-kawiani.com
 +.drkamrani.com
 +.drkamva.com
 +.drkarami.com
@@ -16738,6 +16758,7 @@
 +.drmsabet.com
 +.drmusavi.com
 +.drnabi.com
++.drnaeji.com
 +.drnafisehbaradaran.com
 +.drnafisi.com
 +.drnaghshbandi.com
@@ -16901,6 +16922,7 @@
 +.dryaghoubi.com
 +.dryahost.com
 +.dryaran.com
++.dryazdani.org
 +.dryazdian.com
 +.dryazdizadeh.com
 +.dryosefiacademy.com
@@ -17376,6 +17398,7 @@
 +.eidealhome.com
 +.eidegostaresh.com
 +.eideha.com
++.eidehnegar.com
 +.eidehtablo.com
 +.eidizadeh.com
 +.eiesco.com
@@ -18523,6 +18546,7 @@
 +.evkalasi.com
 +.evlico.com
 +.evlingiah.com
++.evnd.co
 +.evogenshop.com
 +.evolap.com
 +.evounc.org
@@ -18666,6 +18690,7 @@
 +.faanistore.com
 +.faastercar.com
 +.fabanir.com
++.fabarmi.net
 +.faberchemi.com
 +.fabershimi.com
 +.fabertahrir.com
@@ -20571,6 +20596,7 @@
 +.fubix.business
 +.fudo.today
 +.ful-stak.dev
++.fulicahaircare.com
 +.fullfile.net
 +.fullito.com
 +.fullito.org
@@ -21013,6 +21039,7 @@
 +.gasgazelletoosco.com
 +.gashoclub.com
 +.gasht-online.com
++.gashtaninews.com
 +.gashtano.com
 +.gashtasanat.com
 +.gashtenavid.com
@@ -21904,6 +21931,7 @@
 +.godlikewomen.com
 +.godphon.com
 +.godshopp.com
++.goenglishzone.com
 +.goftarenola.com
 +.goftarmarket.com
 +.goftemaan.com
@@ -21971,6 +21999,7 @@
 +.golanar.com
 +.golanogarden.com
 +.golarin.com
++.golariss.app
 +.golator.com
 +.golavand.com
 +.golbaaz.com
@@ -22031,6 +22060,7 @@
 +.golden-casio.com
 +.golden8co.com
 +.goldenabzar.com
++.goldenani.com
 +.goldenbackdrop.com
 +.goldenboatkish.com
 +.goldenbosch.com
@@ -22658,6 +22688,7 @@
 +.hadadian.com
 +.hadadpart.com
 +.hadaf.academy
++.hadaf.agency
 +.hadaf.top
 +.hadafbar.com
 +.hadafdownload.com
@@ -24337,6 +24368,7 @@
 +.hivatk.com
 +.hiview-cctv.com
 +.hivitrin.com
++.hivsti.com
 +.hiwacc.com
 +.hiwadhost.com
 +.hiwatak.shop
@@ -26462,6 +26494,7 @@
 +.iranettesal.com
 +.iranevent.org
 +.iranew.com
++.iranexchange.com
 +.iranexir.com
 +.iranexpo.co
 +.iranexport.academy
@@ -26636,6 +26669,7 @@
 +.iranianserver.com
 +.iranianserver.net
 +.iraniansilver.com
++.iranianskin.com
 +.iraniansms.co
 +.iraniansms.net
 +.iraniansp.com
@@ -28452,6 +28486,7 @@
 +.jazabtarinha.com
 +.jazbe3rvat.com
 +.jazbezanan.com
++.jazbino.com
 +.jazebe.net
 +.jazeeno.com
 +.jazirak.com
@@ -29052,7 +29087,6 @@
 +.kajshop.com
 +.kajsystem.com
 +.kajteflon.com
-+.kakapol.cfd
 +.kakaqeshm.com
 +.kakaroon.com
 +.kakatel.com
@@ -31408,6 +31442,7 @@
 +.kimiaco.net
 +.kimiacoin.top
 +.kimiadevelop.com
++.kimiaexirkosar.com
 +.kimiafarayand.com
 +.kimiafiber.com
 +.kimiafile.com
@@ -31536,6 +31571,7 @@
 +.kishleader.com
 +.kishmaster.com
 +.kishmedicell.com
++.kishmedipharm.com
 +.kishmehr.org
 +.kishmizban.com
 +.kishmultibrand.com
@@ -32097,6 +32133,7 @@
 +.ladyhelenshop.com
 +.ladyhome.net
 +.ladyhome.store
++.ladylife.org
 +.ladymediaa.com
 +.ladypro.shop
 +.ladyran.com
@@ -32200,6 +32237,7 @@
 +.laminor.org
 +.lamiraboutique.com
 +.lamiska.com
++.lamislaser.com
 +.lamismod.com
 +.lamizcoffee.com
 +.lamonge.com
@@ -32796,6 +32834,7 @@
 +.limovape.com
 +.limugift.com
 +.lin.coffee
++.linafood.com
 +.linavesali.com
 +.linawatch.store
 +.linda-online.com
@@ -34684,6 +34723,7 @@
 +.martsana.com
 +.marufi.com
 +.marv.pub
++.marvasticlinic.com
 +.marvdashtnews.org
 +.marvisiran.com
 +.mary-academy.beauty
@@ -34722,6 +34762,7 @@
 +.marykonest.com
 +.marymals3.com
 +.marymod.com
++.marzban.net
 +.marzbazar.com
 +.marzhin.com
 +.marzieh-nikzad.com
@@ -35047,6 +35088,7 @@
 +.mavarashop.com
 +.mavarateb.com
 +.mavaray.com
++.mavengge.com
 +.mavidahome.com
 +.mavigoldgallery.com
 +.mavimaterials.com
@@ -35328,6 +35370,7 @@
 +.medsurgeco.com
 +.medtamin.com
 +.medtest.app
++.medvika.com
 +.medwarespro.com
 +.medyaromancer.com
 +.meechand.com
@@ -36313,6 +36356,7 @@
 +.mikrotelecom.com
 +.milaad.net
 +.milabcoffee.com
++.milad.nu
 +.milad101.com
 +.miladacademy.com
 +.miladartgroup.com
@@ -37761,6 +37805,7 @@
 +.mosalasdecor.com
 +.mosalasezard.com
 +.mosalasmarket.com
++.mosalasonline.com
 +.mosallas.com
 +.mosamashop.com
 +.mosammaco.com
@@ -38610,6 +38655,7 @@
 +.nabz.farm
 +.nabzapp.com
 +.nabzbazar.com
++.nabzebaazaar.com
 +.nabzebazaar.com
 +.nabzebazaredu.com
 +.nabzebourse.com
@@ -38913,6 +38959,7 @@
 +.namdaran.co
 +.namdarrayan.org
 +.namdarstore.com
++.namehnews.com
 +.nameniko.com
 +.nameniko.shop
 +.namenlift.com
@@ -39691,6 +39738,7 @@
 +.netfarin.com
 +.netfarsh.net
 +.netfood.in
++.netgasht.com
 +.nethoosh.com
 +.netinaweb.net
 +.netino.top
@@ -39766,6 +39814,7 @@
 +.newbermoda.com
 +.newborn-skincare.com
 +.newcolour.shop
++.newday4me.fun
 +.newexir.com
 +.newfarsh.com
 +.newgallerry.com
@@ -42521,6 +42570,7 @@
 +.pandpagancy.com
 +.paneherfan.com
 +.panel-sms-meli.com
++.panel.direct
 +.panel32.com
 +.panelmammutco.com
 +.panelpayamak.com
@@ -42545,6 +42595,7 @@
 +.panisserver.com
 +.paniyashop.com
 +.panizalidokht.com
++.panizamir.com
 +.panizcook.net
 +.panizcook.org
 +.panizgallery.com
@@ -42566,6 +42617,7 @@
 +.pankeh.com
 +.pankiy.com
 +.panmobile.site
++.panofeh.com
 +.panoiran.com
 +.panook.com
 +.panoramapan.com
@@ -42718,6 +42770,7 @@
 +.parcheyab.com
 +.parchinmarket.com
 +.parchinroofing.com
++.parchlinux.com
 +.pard.is
 +.pardad-group.com
 +.pardakht.com
@@ -42860,6 +42913,7 @@
 +.parimatou.com
 +.parinazamin.com
 +.parine-civil.com
++.parinegar.com
 +.paringasht.com
 +.parinkhab.com
 +.parinparvaz.com
@@ -44242,7 +44296,6 @@
 +.penopakhsh.com
 +.penopart.com
 +.pentacomputer.com
-+.pentahost.com
 +.pentama.com
 +.penuval.com
 +.peonypastry.com
@@ -47704,6 +47757,7 @@
 +.rejimfakhr.com
 +.rejimfit.com
 +.rejuderm.com
++.rejuvenclinic.com
 +.rejvankala.shop
 +.rekab.shop
 +.reklam118.com
@@ -49043,6 +49097,7 @@
 +.sabagym.com
 +.sabahesab.com
 +.sabahrasti.com
++.sabaidea.cloud
 +.sabaidea.com
 +.sabajam.com
 +.sabakala.com
@@ -50626,6 +50681,7 @@
 +.sarirdoor.com
 +.saririclub.net
 +.sarirkala.com
++.sarirmarket.com
 +.sarirnovin.com
 +.sarirserver.com
 +.sarirservice.com
@@ -50657,6 +50713,7 @@
 +.sarmayenovin.com
 +.sarmayesh.com
 +.sarmayex.com
++.sarnoskhe.com
 +.sarocomputer.com
 +.sarodesigner.com
 +.sarographic.com
@@ -51487,6 +51544,7 @@
 +.sepidox.com
 +.sepidparvaz.net
 +.sepidparvaz24.com
++.sepidpay.com
 +.sepidpendar.com
 +.sepidsho.com
 +.sepidwebhost.com
@@ -51916,6 +51974,7 @@
 +.shafakhaneh.app
 +.shafakhoosheh.com
 +.shafalaboratory.com
++.shafamag.com
 +.shafamarket.net
 +.shafapeik.com
 +.shafasabz.com
@@ -52564,6 +52623,7 @@
 +.shayanelectric.com
 +.shayanet.com
 +.shayanetemad.com
++.shayanews.com
 +.shayanjanebi.com
 +.shayannemoodar.com
 +.shayano.com
@@ -53332,6 +53392,7 @@
 +.siamod.co
 +.siampars.com
 +.sianoacademy.com
++.siarco.com
 +.siasatmadar.com
 +.siatechcctv.com
 +.siatell.com
@@ -55444,6 +55505,7 @@
 +.tahlil-amari.com
 +.tahlilapp.com
 +.tahlilazar.com
++.tahlilbazaar.com
 +.tahlilgaran.org
 +.tahlilgard.com
 +.tahlilgary.com
@@ -58007,6 +58069,7 @@
 +.tootia.store
 +.tootiaplus.com
 +.tootiaseir.com
++.tootinews.com
 +.tootivet.com
 +.tootkhoshk.com
 +.toozhal.com
@@ -58695,6 +58758,7 @@
 +.uperfume.co
 +.upfilm.pw
 +.upgoogle.net
++.uphost.me
 +.upic.media
 +.upielts.com
 +.upkalaa.com
@@ -59385,6 +59449,7 @@
 +.videorayan.com
 +.videot.io
 +.vidino.com
++.vidiran.com
 +.viditor.net
 +.vidiwood.com
 +.vidmoshop.com
@@ -59529,6 +59594,7 @@
 +.viradp.com
 +.viraertebat.com
 +.virafa.com
++.viragostarmoin.com
 +.viragps.org
 +.viragraphic.com
 +.viragraphics.com
@@ -59695,6 +59761,7 @@
 +.vitrinonline.com
 +.vitrinparse.com
 +.vitrinrooz.com
++.vitrinstorage.com
 +.vitrintak.com
 +.vitrintala.com
 +.vitrintor.com
@@ -61545,6 +61612,7 @@
 +.zarrindaroo.com
 +.zarrindookht.com
 +.zarrindoosh.com
++.zarringiah.com
 +.zarringol.com
 +.zarringroupco.com
 +.zarringym.com
@@ -61695,6 +61763,7 @@
 +.zetasho.com
 +.zetogem.com
 +.zettahz.com
++.zeusboroodat.com
 +.zeusiran.com
 +.zeustile.com
 +.zexahost.com
@@ -61779,6 +61848,7 @@
 +.zhinacare.com
 +.zhinagroup.com
 +.zhinakala.co
++.zhinakala.com
 +.zhinal.com
 +.zhinaso.com
 +.zhincoteb.com
@@ -61787,6 +61857,7 @@
 +.zhinerme.com
 +.zhinmod.com
 +.zhinochoob.com
++.zhinora.com
 +.zhinoraco.com
 +.zhinostore.com
 +.zhinostyle.com
