@@ -9976,7 +9976,6 @@
 +.bestdubaitravel.com
 +.bestfastingshop.com
 +.bestforosh.com
-+.bestfrends.shop
 +.bestgeorgia.biz
 +.bestghab.com
 +.besthotel247.com
@@ -53085,6 +53084,7 @@
 +.shetabyadak.com
 +.shetabyar.net
 +.shetac.com
++.sheyda.com
 +.sheydacollection.com
 +.sheypoor.com
 +.sheytoonaktoy.com
@@ -55419,6 +55419,7 @@
 +.surinnet.com
 +.surmechanism.com
 +.surmeh.com
++.surnateam.org
 +.surprisegadget.com
 +.surpriseirani.com
 +.surpriseshoo.com
