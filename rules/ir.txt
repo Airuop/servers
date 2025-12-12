@@ -2783,7 +2783,6 @@
 +.allkapida.com
 +.allkud.com
 +.allkud.org
-+.allmobo.com
 +.allokala.biz
 +.allosalam.com
 +.allpacashop.com
@@ -23474,7 +23473,7 @@
 +.hamtaloans.com
 +.hamtamobile.com
 +.hamtamotor.com
-+.hamtamovie.net
++.hamtamovie.cv
 +.hamtanab.net
 +.hamtanshop.com
 +.hamtaparvaz.com
@@ -32296,7 +32295,6 @@
 +.ladyran.com
 +.ladyroj.com
 +.ladyshik.shop
-+.ladyshik.store
 +.ladytarget.net
 +.lafifamacrame.com
 +.lafoura.com
@@ -40193,6 +40191,7 @@
 +.nikan-co.com
 +.nikan-eng.com
 +.nikan-sports.com
++.nikan.cloud
 +.nikan.org
 +.nikan360.com
 +.nikan38.com
@@ -40726,6 +40725,7 @@
 +.niwanhappyland.com
 +.niwanshop.com
 +.nixelteam.com
++.nixfile.com
 +.nixgel.com
 +.niyaco.com
 +.niyakfarm.com
