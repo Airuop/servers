@@ -13359,7 +13359,6 @@
 +.cybernetbotshop.com
 +.cyberpars.xyz
 +.cyberplaystore.com
-+.cyberpowerspace.com
 +.cybertalk.academy
 +.cycaschoob.com
 +.cycass.com
@@ -13947,6 +13946,7 @@
 +.darksistem.com
 +.darkube.app
 +.darkuob.com
++.darkzed.com
 +.darmabasparnegarvira.com
 +.darman-itc.com
 +.darman-show.com
@@ -55773,6 +55773,7 @@
 +.taeivolleyball.com
 +.tafahomnews.com
 +.tafakornia.com
++.tafcom.shop
 +.tafkikan.com
 +.tafrekam.com
 +.tafrih.net
