@@ -36016,6 +36016,7 @@
 +.melorshop.com
 +.meloryn.com
 +.melosaz.com
++.melotar.com
 +.melotik.com
 +.melowlay.com
 +.melowsic.com
@@ -40008,6 +40009,7 @@
 +.newbehzad.com
 +.newcar-shop.com
 +.newcash.me
++.newdars.com
 +.newday4me.fun
 +.newfragranc.com
 +.newgallerry.com
