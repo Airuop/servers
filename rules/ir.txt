@@ -86,6 +86,7 @@
 +.118valve.com
 +.118website.com
 +.11ir.com
++.11l.eu
 +.120click.com
 +.120darsad.com
 +.120km.com
@@ -3497,6 +3498,7 @@
 +.apango.org
 +.aparat.com
 +.aparatkids.com
++.aparatmusic.com
 +.aparatparseh.com
 +.aparatsport.com
 +.aparatstyle.com
@@ -21485,6 +21487,7 @@
 +.hap-co.org
 +.hapetteam.com
 +.hapisho.com
++.hapoochi.com
 +.hapoopet.com
 +.happeiland.com
 +.happilyland.com
@@ -41154,6 +41157,7 @@
 +.pgtadvertising.com
 +.pgtholding.com
 +.pgupgame.com
++.phamiteb.com
 +.pharma-time.com
 +.pharmaashop.com
 +.pharmachemie.co
@@ -52735,6 +52739,7 @@
 +.telesk.org
 +.teletter.net
 +.telewebion.com
++.telewebion.net
 +.telewoti.com
 +.telexiran.com
 +.teleyar.com
